@@ -1,61 +1,72 @@
-<h1 align="center">Hi there, I'm Tanmay Mangal 👋</h1>
+<div align="center">
 
-<h3 align="center">
-  B.Tech Student | Full Stack Developer | AI & Finance Enthusiast | DSA Learner
-</h3>
+<img src="profile.jpg" width="220" alt="Tanmay Mangal Profile Photo" />
 
-<p align="center">
+# Hi there, I'm Tanmay Mangal 👋
+
+### B.Tech Student | Full Stack Developer | AI & Finance Enthusiast | DSA Learner
+
+<p>
   <a href="https://www.linkedin.com/in/tanmaymangal/">
-    <img src="https://img.shields.io/badge/LinkedIn-Tanmay%20Mangal-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Tanmay%20Mangal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://leetcode.com/u/tanmay-alpha/">
-    <img src="https://img.shields.io/badge/LeetCode-tanmay--alpha-orange?style=for-the-badge&logo=leetcode&logoColor=white" />
+    <img src="https://img.shields.io/badge/LeetCode-tanmay--alpha-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
-  <a href="mailto:YOUR_EMAIL_HERE">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:mangaltanmay7@gmail.com">
+    <img src="https://img.shields.io/badge/Email-mangaltanmay7%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
+
+</div>
 
 ---
 
 ## 💫 About Me
 
-I am a passionate developer focused on building real-world software projects that solve practical problems.  
-I am currently exploring **Full Stack Development, AI/ML, Finance Tech, System Design, and Data Structures & Algorithms**.
+I am a passionate developer focused on building **real-world software projects** that are practical, useful, and technically strong.
 
-- 🔭 I’m currently working on **AI, finance, and full-stack web projects**
-- 🌱 I’m currently learning **DSA, React, Backend Development, FastAPI, and System Design**
-- 💻 I enjoy building **practical projects instead of only theoretical learning**
-- 📈 Interested in **AI, trading systems, financial technology, and automation**
-- 🤝 Looking to collaborate on **open-source, AI tools, finance platforms, and web apps**
-- 🎯 Goal: Build strong projects, improve DSA, and become industry-ready for software internships
-- 📫 Reach me on **LinkedIn**: [Tanmay Mangal](https://www.linkedin.com/in/tanmaymangal/)
+I am currently exploring **Full Stack Development, AI/ML, Finance Technology, System Design, and Data Structures & Algorithms**.  
+My goal is to become industry-ready by building strong projects, improving problem-solving skills, and contributing to meaningful software.
+
+- 🔭 Currently working on **AI, finance, and full-stack web projects**
+- 🌱 Learning **DSA, React, Backend Development, FastAPI, and System Design**
+- 💻 Interested in building **practical products, not just basic projects**
+- 📈 Strong interest in **AI, trading systems, fintech, automation, and developer tools**
+- 🤝 Open to collaborating on **open-source, AI tools, finance platforms, and web applications**
+- 🎯 Goal: Build a strong developer profile and become ready for **software development internships**
+- 📫 Reach me at: **mangaltanmay7@gmail.com**
 
 ---
 
 ## 🚀 Featured Projects
 
 ### 🔍 AI Image Forensic Screener
-A machine learning-based project that helps analyze whether an image is real or AI-generated.  
-Built with a focus on practical image forensics, confidence scoring, and user-friendly reporting.
+
+A machine-learning based project that helps analyze whether an image is real or AI-generated.  
+The project focuses on image classification, confidence scoring, forensic indicators, and user-friendly reporting.
 
 🔗 Repository: [AI Image Forensic Screener](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
 
 ---
 
 ### 📈 Indian Algo Trading Platform
-An institutional-style Indian stock market trading terminal for NSE, focused on market data, watchlists, charts, and trading-system architecture.
+
+An institutional-style Indian stock market trading terminal focused on NSE market data, charts, watchlists, and backend architecture.
 
 Key focus areas:
+
 - FastAPI backend
 - Market data gateway
 - Paper trading safety
 - TradingView-style charting
-- NSE-focused trading terminal UI
+- NSE-focused terminal UI
+- Scalable architecture for future trading features
 
 ---
 
 ### 🧮 FinCalc India
+
 A finance calculator platform focused on useful Indian finance calculations and tools.
 
 🔗 Live Project: [fincalc-india.vercel.app](https://fincalc-india.vercel.app)
@@ -63,7 +74,8 @@ A finance calculator platform focused on useful Indian finance calculations and 
 ---
 
 ### 🎓 FOSSEE Workshop Platform
-A workshop platform built for managing and displaying workshop-related content with a clean web interface.
+
+A workshop platform built to manage and display workshop-related content with a clean web interface.
 
 🔗 Live Project: [fossee-workshop-platform.vercel.app](https://fossee-workshop-platform.vercel.app)
 
@@ -72,21 +84,25 @@ A workshop platform built for managing and displaying workshop-related content w
 ## 🛠️ Tech Stack
 
 ### Languages
+
 <p>
   <img src="https://skillicons.dev/icons?i=cpp,python,javascript,html,css" />
 </p>
 
 ### Frontend
+
 <p>
   <img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap" />
 </p>
 
 ### Backend & Tools
+
 <p>
   <img src="https://skillicons.dev/icons?i=fastapi,nodejs,git,github,vscode,vercel" />
 </p>
 
-### Databases & Other Interests
+### Databases
+
 <p>
   <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
 </p>
@@ -98,7 +114,7 @@ A workshop platform built for managing and displaying workshop-related content w
 - Data Structures and Algorithms in C++
 - React and modern frontend development
 - Backend development with FastAPI
-- System design basics
+- System design fundamentals
 - AI/ML project development
 - Finance and stock market technology
 
@@ -106,11 +122,11 @@ A workshop platform built for managing and displaying workshop-related content w
 
 ## 🧠 DSA & Problem Solving
 
-I am actively improving my problem-solving skills through LeetCode and consistent DSA practice.
+I am actively improving my problem-solving skills through consistent DSA practice and LeetCode.
 
 <p align="center">
   <a href="https://leetcode.com/u/tanmay-alpha/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode&logoColor=white" />
+    <img src="https://img.shields.io/badge/LeetCode-View%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
 </p>
 
@@ -136,18 +152,20 @@ I am actively improving my problem-solving skills through LeetCode and consisten
 
 <p align="center">
   <a href="https://www.linkedin.com/in/tanmaymangal/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://leetcode.com/u/tanmay-alpha/">
-    <img src="https://img.shields.io/badge/LeetCode-Practice%20Profile-orange?style=for-the-badge&logo=leetcode&logoColor=white" />
+    <img src="https://img.shields.io/badge/LeetCode-Practice%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
-  <a href="mailto:YOUR_EMAIL_HERE">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:mangaltanmay7@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
 ---
 
-<h3 align="center">
-  “Building projects, solving problems, and improving every day.”
-</h3>
+<div align="center">
+
+### “Building projects, solving problems, and improving every day.”
+
+</div>
