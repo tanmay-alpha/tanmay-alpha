@@ -1,4 +1,4 @@
-name: GitHub Profile 3D Contribution
+﻿name: GitHub Profile 3D Contribution
 
 on:
   schedule:
@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Generate 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@latest
