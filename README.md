@@ -1,10 +1,10 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:FF2E63&height=240&section=header&text=Tanmay%20Mangal&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20Builder%20%7C%20FinTech%20Enthusiast%20%7C%20DSA%20Learner&descAlignY=60&descSize=18" alt="Header" />
 
 <img src="https://avatars.githubusercontent.com/u/254906467?v=4" width="170" height="170" alt="Tanmay Mangal GitHub Avatar" />
 
-# Hey, I'm Tanmay Mangal ðŸ‘‹
+# Hey, I'm Tanmay Mangal 👋
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=24&duration=2200&pause=700&center=true&vCenter=true&width=900&lines=B.Tech+Student;Full+Stack+Developer;AI+%2B+FinTech+Builder;Trading+Systems+Enthusiast;Building+real-world+software;DSA+%2B+System+Design+in+progress" alt="Typing SVG" />
 
@@ -33,7 +33,7 @@
 
 ---
 
-## âš¡ Developer Identity
+## ⚡ Developer Identity
 
 ```txt
 Name        : Tanmay Mangal
@@ -46,23 +46,23 @@ Mindset     : Build practical products, ship clean code, improve every day
 
 ---
 
-## ðŸ’« About Me
+## 💫 About Me
 
 I am a **B.Tech student** and **full-stack developer** focused on building practical, useful, and technically strong software products.
 
 I am currently exploring **Full Stack Development, AI/ML, Finance Technology, Trading Systems, System Design, Data Structures & Algorithms, and Developer Tools**.
 
-- ðŸ”­ Building **AI, fintech, trading systems, automation, and full-stack web projects**
-- ðŸŒ± Learning **DSA, React, Next.js, Backend Development, FastAPI, and System Design**
-- ðŸ§  Interested in **AI products, developer tooling, financial platforms, and scalable systems**
-- ðŸ“ˆ Strong interest in **stock market technology, screeners, paper trading, and data platforms**
-- ðŸ¤ Open to collaboration on **open-source, AI tools, finance platforms, and web applications**
-- ðŸŽ¯ Goal: Become ready for **software development internships**
-- ðŸ“« Reach me at: **mangaltanmay7@gmail.com**
+- 🔭 Building **AI, fintech, trading systems, automation, and full-stack web projects**
+- 🌱 Learning **DSA, React, Next.js, Backend Development, FastAPI, and System Design**
+- 🧠 Interested in **AI products, developer tooling, financial platforms, and scalable systems**
+- 📈 Strong interest in **stock market technology, screeners, paper trading, and data platforms**
+- 🤝 Open to collaboration on **open-source, AI tools, finance platforms, and web applications**
+- 🎯 Goal: Become ready for **software development internships**
+- 📫 Reach me at: **mangaltanmay7@gmail.com**
 
 ---
 
-## ðŸ§¬ My Build DNA
+## 🧬 My Build DNA
 
 ```mermaid
 mindmap
@@ -100,7 +100,7 @@ mindmap
 
 ---
 
-## ðŸŒŒ Animated Skills Orbit
+## 🌌 Animated Skills Orbit
 
 <div align="center">
 
@@ -110,13 +110,13 @@ mindmap
 
 ---
 
-## ðŸš€ Main Project Universe
+## 🚀 Main Project Universe
 
 <table>
 <tr>
 <td width="50%">
 
-### ðŸ” Lumint
+### 🔍 Lumint
 
 AI-powered fraud detection platform for India's digital payment ecosystem.
 
@@ -135,13 +135,13 @@ AI-powered fraud detection platform for India's digital payment ecosystem.
 
 <br/>
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/Lumint)  
-ðŸŒ [Live Demo](https://lumint-pi.vercel.app)
+🔗 [Repository](https://github.com/tanmay-alpha/Lumint)  
+🌐 [Live Demo](https://lumint-pi.vercel.app)
 
 </td>
 <td width="50%">
 
-### ðŸ“Š TradeVed Screener
+### 📊 TradeVed Screener
 
 Data-first Indian stock screener focused on building a serious equity research database.
 
@@ -160,8 +160,8 @@ Data-first Indian stock screener focused on building a serious equity research d
 
 <br/>
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/tradeved-screener)  
-ðŸŒ [Live Demo](https://tradevedscreener.vercel.app)
+🔗 [Repository](https://github.com/tanmay-alpha/tradeved-screener)  
+🌐 [Live Demo](https://tradevedscreener.vercel.app)
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ Data-first Indian stock screener focused on building a serious equity research d
 <tr>
 <td width="50%">
 
-### ðŸ“ˆ MAET
+### 📈 MAET
 
 Scanner-first Indian market intelligence terminal for shortlisting NSE stocks.
 
@@ -188,13 +188,13 @@ Scanner-first Indian market intelligence terminal for shortlisting NSE stocks.
 
 <br/>
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/MAET)  
-ðŸŒ [Live Demo](https://maet-pi.vercel.app)
+🔗 [Repository](https://github.com/tanmay-alpha/MAET)  
+🌐 [Live Demo](https://maet-pi.vercel.app)
 
 </td>
 <td width="50%">
 
-### ðŸ§  Indian Algo Trading Platform
+### 🧠 Indian Algo Trading Platform
 
 Safety-first Indian market analytics and paper trading workspace.
 
@@ -214,8 +214,8 @@ Safety-first Indian market analytics and paper trading workspace.
 
 <br/>
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/indian-algo-trading-platform)  
-ðŸŒ [Live Demo](https://indian-algo-trading-platform.vercel.app)
+🔗 [Repository](https://github.com/tanmay-alpha/indian-algo-trading-platform)  
+🌐 [Live Demo](https://indian-algo-trading-platform.vercel.app)
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ Safety-first Indian market analytics and paper trading workspace.
 <tr>
 <td width="50%">
 
-### ðŸ§® FinCalc India
+### 🧮 FinCalc India
 
 Financial calculator suite for Indian investors and tax filers.
 
@@ -241,13 +241,13 @@ Financial calculator suite for Indian investors and tax filers.
 
 <br/>
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/fincalc-india)  
-ðŸŒ [Live Demo](https://fincalc-india.vercel.app)
+🔗 [Repository](https://github.com/tanmay-alpha/fincalc-india)  
+🌐 [Live Demo](https://fincalc-india.vercel.app)
 
 </td>
 <td width="50%">
 
-### ðŸ–¼ï¸ AI Image Forensic Screener
+### 🖼️ AI Image Forensic Screener
 
 Desktop tool for detecting AI-generated and deepfake images.
 
@@ -267,7 +267,7 @@ Desktop tool for detecting AI-generated and deepfake images.
 
 <br/>
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
+🔗 [Repository](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ Desktop tool for detecting AI-generated and deepfake images.
 <tr>
 <td width="50%">
 
-### ðŸ”Ž CodeLens
+### 🔎 CodeLens
 
 Semantic automated code review system powered by fine-tuned CodeBERT.
 
@@ -294,12 +294,12 @@ Semantic automated code review system powered by fine-tuned CodeBERT.
 
 <br/>
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/codelens)
+🔗 [Repository](https://github.com/tanmay-alpha/codelens)
 
 </td>
 <td width="50%">
 
-### ðŸ”¥ Crucible
+### 🔥 Crucible
 
 From-scratch ONNX inference engine in C++17.
 
@@ -318,7 +318,7 @@ From-scratch ONNX inference engine in C++17.
 
 <br/>
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/Crucible)
+🔗 [Repository](https://github.com/tanmay-alpha/Crucible)
 
 </td>
 </tr>
@@ -326,31 +326,31 @@ From-scratch ONNX inference engine in C++17.
 
 ---
 
-## ðŸŒ Web, Portfolio & Tooling Projects
+## 🌐 Web, Portfolio & Tooling Projects
 
 <table>
 <tr>
 <td width="50%">
 
-### ðŸŽ“ FOSSEE Workshop Booking
+### 🎓 FOSSEE Workshop Booking
 
 Responsive workshop booking interface built with React.
 
 **Tech:** React, Vite, Tailwind CSS, React Router
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/fossee-workshop-booking)  
-ðŸŒ [Live Demo](https://fossee-workshop-platform.vercel.app)
+🔗 [Repository](https://github.com/tanmay-alpha/fossee-workshop-booking)  
+🌐 [Live Demo](https://fossee-workshop-platform.vercel.app)
 
 </td>
 <td width="50%">
 
-### ðŸ§‘â€ðŸ’» Personal Portfolio
+### 🧑‍💻 Personal Portfolio
 
 Modern personal portfolio website.
 
 **Tech:** Next.js 15, TypeScript, Tailwind CSS, Framer Motion
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/tanmay-portfolio)
+🔗 [Repository](https://github.com/tanmay-alpha/tanmay-portfolio)
 
 </td>
 </tr>
@@ -358,24 +358,24 @@ Modern personal portfolio website.
 <tr>
 <td width="50%">
 
-### âš¡ Dynamic Bubble Website
+### ⚡ Dynamic Bubble Website
 
 Responsive digital services agency website template.
 
 **Tech:** HTML5, CSS3, JavaScript
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/Dynamic-Bubble-Website)
+🔗 [Repository](https://github.com/tanmay-alpha/Dynamic-Bubble-Website)
 
 </td>
 <td width="50%">
 
-### ðŸ§° AI Workspace
+### 🧰 AI Workspace
 
 Reusable workflow toolkit for AI-assisted software engineering.
 
 **Tech:** PowerShell, CI/CD, GitHub Actions, Prompt Playbooks, Developer Workflow
 
-ðŸ”— [Repository](https://github.com/tanmay-alpha/-ai-workspace)
+🔗 [Repository](https://github.com/tanmay-alpha/-ai-workspace)
 
 </td>
 </tr>
@@ -383,7 +383,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## ðŸ› ï¸ Skills Arsenal
+## 🛠️ Skills Arsenal
 
 <div align="center">
 
@@ -429,49 +429,49 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## ðŸ§  Learning Radar
+## 🧠 Learning Radar
 
 <table>
 <tr>
 <td><b>DSA in C++</b></td>
-<td>â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘</td>
+<td>█████████░░░░░░░</td>
 <td>45%</td>
 </tr>
 <tr>
 <td><b>React & Next.js</b></td>
-<td>â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘</td>
+<td>████████░░░░░░░░</td>
 <td>40%</td>
 </tr>
 <tr>
 <td><b>Backend Engineering</b></td>
-<td>â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘</td>
+<td>███████░░░░░░░░░</td>
 <td>35%</td>
 </tr>
 <tr>
 <td><b>FastAPI + APIs</b></td>
-<td>â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘</td>
+<td>███████░░░░░░░░░</td>
 <td>35%</td>
 </tr>
 <tr>
 <td><b>System Design</b></td>
-<td>â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘</td>
+<td>█████░░░░░░░░░░░</td>
 <td>25%</td>
 </tr>
 <tr>
 <td><b>AI/ML Project Development</b></td>
-<td>â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘</td>
+<td>██████░░░░░░░░░░</td>
 <td>30%</td>
 </tr>
 <tr>
 <td><b>Finance Technology</b></td>
-<td>â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘</td>
+<td>███████░░░░░░░░░</td>
 <td>35%</td>
 </tr>
 </table>
 
 ---
 
-## ðŸ§  Problem Solving
+## 🧠 Problem Solving
 
 <div align="center">
 
@@ -483,7 +483,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## ðŸ“Š Live GitHub Stats
+## 📊 Live GitHub Stats
 
 <div align="center">
 
@@ -513,7 +513,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## ðŸŒŒ 3D Contribution Universe
+## 🌌 3D Contribution Universe
 
 <div align="center">
 
@@ -523,7 +523,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## ðŸ§© Engineering Direction
+## 🧩 Engineering Direction
 
 ```mermaid
 flowchart LR
@@ -539,7 +539,7 @@ flowchart LR
 
 ---
 
-## ðŸŒ Connect With Me
+## 🌐 Connect With Me
 
 <div align="center">
 
@@ -562,7 +562,7 @@ flowchart LR
 
 <div align="center">
 
-### â€œBuilding projects, solving problems, and improving every day.â€
+### “Building projects, solving problems, and improving every day.”
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:FF2E63&height=150&section=footer" alt="Footer Wave" />
 
