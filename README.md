@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="profile.jpg" width="220" alt="Tanmay Mangal Profile Photo" />
+<img src="profile.jpg" width="180" height="180" style="border-radius: 50%;" alt="Tanmay Mangal Profile Photo" />
 
 # Hi there, I'm Tanmay Mangal 👋
 
-### B.Tech Student | Full Stack Developer | AI & Finance Enthusiast | DSA Learner
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&center=true&vCenter=true&width=650&lines=B.Tech+Student;Full+Stack+Developer;AI+%26+FinTech+Enthusiast;DSA+Learner;Building+Real-World+Software+Projects" alt="Typing SVG" />
 
 <p>
   <a href="https://www.linkedin.com/in/tanmaymangal/">
@@ -18,13 +18,18 @@
   </a>
 </p>
 
+<p>
+  <img src="https://komarev.com/ghpvc/?username=tanmay-alpha&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/tanmay-alpha?label=Followers&style=social" alt="GitHub Followers" />
+</p>
+
 </div>
 
 ---
 
 ## 💫 About Me
 
-I am a passionate developer focused on building **real-world software projects** that are practical, useful, and technically strong.
+I am a **B.Tech student** and **full-stack developer** focused on building practical, real-world software projects.
 
 I am currently exploring **Full Stack Development, AI/ML, Finance Technology, System Design, and Data Structures & Algorithms**.  
 My goal is to become industry-ready by building strong projects, improving problem-solving skills, and contributing to meaningful software.
@@ -34,50 +39,77 @@ My goal is to become industry-ready by building strong projects, improving probl
 - 💻 Interested in building **practical products, not just basic projects**
 - 📈 Strong interest in **AI, trading systems, fintech, automation, and developer tools**
 - 🤝 Open to collaborating on **open-source, AI tools, finance platforms, and web applications**
-- 🎯 Goal: Build a strong developer profile and become ready for **software development internships**
+- 🎯 Goal: Become ready for **software development internships**
 - 📫 Reach me at: **mangaltanmay7@gmail.com**
 
 ---
 
 ## 🚀 Featured Projects
 
+<table>
+<tr>
+<td width="50%">
+
 ### 🔍 AI Image Forensic Screener
 
-A machine-learning based project that helps analyze whether an image is real or AI-generated.  
-The project focuses on image classification, confidence scoring, forensic indicators, and user-friendly reporting.
+A machine-learning based project that analyzes whether an image is real or AI-generated.
 
-🔗 Repository: [AI Image Forensic Screener](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
+**Key Features**
+- Image classification
+- Confidence scoring
+- Forensic indicators
+- User-friendly reporting
 
----
+**Tech Focus:** Python, ML, Image Processing, AI Detection
+
+🔗 [Repository](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
+
+</td>
+<td width="50%">
 
 ### 📈 Indian Algo Trading Platform
 
-An institutional-style Indian stock market trading terminal focused on NSE market data, charts, watchlists, and backend architecture.
+An institutional-style Indian stock market trading terminal focused on NSE data, charts, watchlists, and backend architecture.
 
-Key focus areas:
-
+**Key Features**
 - FastAPI backend
 - Market data gateway
 - Paper trading safety
-- TradingView-style charting
+- TradingView-style charts
 - NSE-focused terminal UI
-- Scalable architecture for future trading features
 
----
+**Tech Focus:** FastAPI, React, Finance, Trading Systems
+
+🔗 Repository: Coming Soon
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
 
 ### 🧮 FinCalc India
 
 A finance calculator platform focused on useful Indian finance calculations and tools.
 
-🔗 Live Project: [fincalc-india.vercel.app](https://fincalc-india.vercel.app)
+**Tech Focus:** Web Development, Finance Tools, UI/UX
 
----
+🔗 [Live Project](https://fincalc-india.vercel.app)
+
+</td>
+<td width="50%">
 
 ### 🎓 FOSSEE Workshop Platform
 
 A workshop platform built to manage and display workshop-related content with a clean web interface.
 
-🔗 Live Project: [fossee-workshop-platform.vercel.app](https://fossee-workshop-platform.vercel.app)
+**Tech Focus:** Frontend, Web Platform, Deployment
+
+🔗 [Live Project](https://fossee-workshop-platform.vercel.app)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -111,61 +143,10 @@ A workshop platform built to manage and display workshop-related content with a 
 
 ## 📚 Currently Learning
 
-- Data Structures and Algorithms in C++
-- React and modern frontend development
-- Backend development with FastAPI
-- System design fundamentals
-- AI/ML project development
-- Finance and stock market technology
-
----
-
-## 🧠 DSA & Problem Solving
-
-I am actively improving my problem-solving skills through consistent DSA practice and LeetCode.
-
-<p align="center">
-  <a href="https://leetcode.com/u/tanmay-alpha/">
-    <img src="https://img.shields.io/badge/LeetCode-View%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-  </a>
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tanmay-alpha&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanmay-alpha&layout=compact&theme=tokyonight" />
-</p>
-
----
-
-## 🌐 Connect With Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/tanmaymangal/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://leetcode.com/u/tanmay-alpha/">
-    <img src="https://img.shields.io/badge/LeetCode-Practice%20Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-  </a>
-  <a href="mailto:mangaltanmay7@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
----
-
-<div align="center">
-
-### “Building projects, solving problems, and improving every day.”
-
-</div>
+```txt
+DSA in C++                 █████████░░░░░░░░  45%
+React Development          ████████░░░░░░░░░  40%
+FastAPI Backend            ███████░░░░░░░░░░  35%
+System Design              █████░░░░░░░░░░░░  25%
+AI/ML Projects             ██████░░░░░░░░░░░  30%
+Finance Technology         ███████░░░░░░░░░░  35%
