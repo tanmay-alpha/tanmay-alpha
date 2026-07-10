@@ -200,13 +200,13 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
 
 ### Lumint
 
-AI-powered fraud detection platform for India's digital payment ecosystem.
+AI-powered payment fraud detection platform built to secure transactions.
 
 **What it does**
-- Detects suspicious screenshots, documents, and links
-- Produces risk score and plain-English explanation
-- Built around payment-fraud awareness for India
-- Focused on privacy and open-source accessibility
+- Detects tampered payment screenshots and manipulated values using ML/AI computer vision
+- Performs instant risk analysis on transaction receipts and flags suspicious domains
+- Built around open-source, privacy-first UPI fraud mitigation for India's digital payment rails
+- Provides a clean dashboard with risk scoring and plain-English explanations of flagged items
 
 **Tech Stack**
 
@@ -224,13 +224,13 @@ AI-powered fraud detection platform for India's digital payment ecosystem.
 
 ### TradeVed Screener
 
-Data-first Indian stock screener focused on building a serious equity research database.
+Data-first Indian equity research database and fundamental stock screener.
 
 **What it does**
-- Indian equity research and screening platform
-- Company master data, prices, fundamentals, ratios
-- Supabase for live reads and real-time updates
-- BigQuery for analytics, history, audits, and backtesting
+- Aggregates multi-year corporate fundamental data, financial ratios, and master sheets
+- Utilizes Supabase for low-latency live reads and user watchlists
+- Integrates Google BigQuery data warehouse for intensive historical analytics, data audits, and screener backtests
+- Supports complex query building across dynamic financial metrics
 
 **Tech Stack**
 
@@ -251,13 +251,13 @@ Data-first Indian stock screener focused on building a serious equity research d
 
 ### MAET
 
-Scanner-first Indian market intelligence terminal for shortlisting NSE stocks.
+Scanner-first Indian market intelligence and stock discovery terminal.
 
 **What it does**
-- NSE company universe with full stock scanner
-- Chart overlays, indicators, and market data
-- Supabase database with Render backend
-- Built for active screener-driven research
+- Tracks the active NSE company universe with multi-metric screening filters
+- Processes and displays real-time price indicators and custom chart overlays
+- Combines a FastAPI backend for high-performance calculations with a Supabase database
+- Deployed on Render for fast API response times under high-frequency updates
 
 **Tech Stack**
 
@@ -275,14 +275,13 @@ Scanner-first Indian market intelligence terminal for shortlisting NSE stocks.
 
 ### Indian Algo Trading Platform
 
-Safety-first Indian market analytics and paper trading workspace.
+Safety-first market analytics terminal and simulated paper trading workspace.
 
 **What it does**
-- Market analytics terminal with live data feed
-- Paper OMS and dry-run order validation
-- Read-only broker context integration
-- AI advisory notes and signal engine
-- Live execution locked for safety by design
+- Features a high-fidelity Paper OMS (Order Management System) to practice execution safely
+- Streams real-time market data directly from broker contexts using high-speed WebSockets
+- Includes AI advisory note generation to assist with trade setup planning
+- Built with Next.js and a fast FastAPI server, locking live execution for safe dry-runs
 
 **Tech Stack**
 
@@ -303,13 +302,13 @@ Safety-first Indian market analytics and paper trading workspace.
 
 ### FinCalc India
 
-Financial calculator suite for Indian investors and tax filers.
+Comprehensive calculator suite localized for Indian investment and tax planning.
 
 **What it does**
-- SIP, EMI, FD, PPF, Lumpsum, and Income Tax calculators
-- Indian number formatting and localization
-- Clean, finance-focused UI with interactive charts
-- Lightweight and fast for everyday investor use
+- Provides localized tools for SIP, Lumpsum, EMI, FD, PPF, and detailed Income Tax calculations
+- Fully supports Indian number formatting conventions (Lakhs and Crores)
+- Features interactive, clean data visualization dashboards built with Recharts
+- Fast, ad-free alternative optimized for everyday investor and tax filer calculations
 
 **Tech Stack**
 
@@ -327,13 +326,13 @@ Financial calculator suite for Indian investors and tax filers.
 
 ### AI Image Forensic Screener
 
-Desktop tool for detecting AI-generated and deepfake images.
+Desktop intelligence tool for deepfake detection and metadata forensic inspection.
 
 **What it does**
-- ML-based image authenticity detection
-- EXIF, XMP, IPTC metadata forensic analysis
-- C2PA provenance support
-- Exportable forensic reports with SQLite scan history
+- Performs image classification using fine-tuned Hugging Face ML models
+- Extracts and audits EXIF, XMP, IPTC, and modern C2PA provenance metadata
+- Applies OpenCV filters for digital image forensics (error level and noise analysis)
+- Features a secure PyQt6 desktop GUI with local SQLite history logging and report exports
 
 **Tech Stack**
 
@@ -354,13 +353,13 @@ Desktop tool for detecting AI-generated and deepfake images.
 
 ### CodeLens
 
-Semantic automated code review system powered by fine-tuned CodeBERT.
+Semantic automated code reviewer designed to identify deep architectural bugs.
 
 **What it does**
-- Detects bugs that normal linters miss
-- Finds N+1 query patterns and hardcoded secrets
-- Flags sync I/O inside async code paths
-- Java 21 orchestrator + FastAPI ML inference backend
+- Scans repositories to detect issues missed by standard linters (N+1 queries, hardcoded secrets, I/O in async paths)
+- Employs a fine-tuned CodeBERT model for deep semantic code comprehension
+- Built as a Java 21 Spring Boot core worker service managing task queues via Redis
+- Exposes a high-performance FastAPI server for model inference, logging to PostgreSQL
 
 **Tech Stack**
 
@@ -379,13 +378,13 @@ Semantic automated code review system powered by fine-tuned CodeBERT.
 
 ### Crucible
 
-From-scratch ONNX inference engine in C++17.
+From-scratch high-performance neural network inference engine.
 
 **What it does**
-- Lightweight ONNX inference engine, no Python at runtime
-- Browser inference via WebAssembly surface
-- Rust CLI, Python bindings, FastAPI server
-- Clean cross-language systems architecture
+- Implements ONNX tensor operations, model parsing, and computation graphs from scratch
+- Written in clean, modular C++17 with supplementary implementations in Rust
+- Compiles via WebAssembly (WASM) to support zero-dependency client-side ML in the browser
+- Includes Python bindings and a FastAPI wrapper for backend testing
 
 **Tech Stack**
 
