@@ -524,32 +524,33 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## Live GitHub Stats
+## GitHub Statistics
 
 <div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tanmay-alpha&theme=tokyonight" alt="GitHub Profile Summary" />
-
+  <!-- General Stats Card & Streak Stats Card side-by-side -->
+  <a href="https://github.com/tanmay-alpha">
+    <img src="https://github-readme-stats.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/tanmay-alpha">
+    <img src="https://streak-stats.demolab.com/?user=tanmay-alpha&theme=tokyonight" alt="GitHub Streak Stats" />
+  </a>
 </div>
 
 <br/>
 
 <div align="center">
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tanmay-alpha&theme=tokyonight" alt="GitHub Stats" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tanmay-alpha&theme=tokyonight&utcOffset=5.5" alt="Commit Time" />
-
+  <!-- 31-Day Activity Consistency Graph -->
+  <a href="https://github.com/tanmay-alpha">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanmay-alpha&theme=tokyonight&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%" />
+  </a>
 </div>
 
 <br/>
 
 <div align="center">
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tanmay-alpha&theme=tokyonight" alt="Repos Per Language" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanmay-alpha&theme=tokyonight" alt="Most Commit Language" />
-
+  <!-- Language Distribution Summary Cards -->
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tanmay-alpha&theme=tokyonight" alt="Repos Per Language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tanmay-alpha&theme=tokyonight" alt="Most Commit Language" />
 </div>
 
 ---
