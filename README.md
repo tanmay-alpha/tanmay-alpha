@@ -94,14 +94,16 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
   <br/>
   <table>
     <tr>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="60" height="60" /><br/>C++</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="60" height="60" /><br/>Python</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="60" height="60" /><br/>Java</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="60" height="60" /><br/>JavaScript</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="60" height="60" /><br/>TypeScript</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=rust&theme=dark" alt="Rust" width="60" height="60" /><br/>Rust</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=bash&theme=dark" alt="Bash" width="60" height="60" /><br/>Bash</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=powershell&theme=dark" alt="PowerShell" width="60" height="60" /><br/>PowerShell</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="50" height="50" /><br/>C++</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="50" height="50" /><br/>Python</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="50" height="50" /><br/>Java</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="50" height="50" /><br/>JavaScript</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="50" height="50" /><br/>TypeScript</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=rust&theme=dark" alt="Rust" width="50" height="50" /><br/>Rust</td>
+    </tr>
+    <tr>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=bash&theme=dark" alt="Bash" width="50" height="50" /><br/>Bash</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=powershell&theme=dark" alt="PowerShell" width="50" height="50" /><br/>PowerShell</td>
     </tr>
   </table>
 </details>
@@ -111,14 +113,16 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
   <br/>
   <table>
     <tr>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="60" height="60" /><br/>React</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js" width="60" height="60" /><br/>Next.js</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="Redux" width="60" height="60" /><br/>Redux</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" alt="Tailwind CSS" width="60" height="60" /><br/>Tailwind CSS</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=vite&theme=dark" alt="Vite" width="60" height="60" /><br/>Vite</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" width="60" height="60" /><br/>Figma</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=html&theme=dark" alt="HTML5" width="60" height="60" /><br/>HTML5</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=css&theme=dark" alt="CSS3" width="60" height="60" /><br/>CSS3</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="50" height="50" /><br/>React</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js" width="50" height="50" /><br/>Next.js</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="Redux" width="50" height="50" /><br/>Redux</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" alt="Tailwind CSS" width="50" height="50" /><br/>Tailwind CSS</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=vite&theme=dark" alt="Vite" width="50" height="50" /><br/>Vite</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" width="50" height="50" /><br/>Figma</td>
+    </tr>
+    <tr>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=html&theme=dark" alt="HTML5" width="50" height="50" /><br/>HTML5</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=css&theme=dark" alt="CSS3" width="50" height="50" /><br/>CSS3</td>
     </tr>
   </table>
 </details>
@@ -128,17 +132,19 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
   <br/>
   <table>
     <tr>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" alt="FastAPI" width="60" height="60" /><br/>FastAPI</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" alt="Node.js" width="60" height="60" /><br/>Node.js</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=spring&theme=dark" alt="Spring" width="60" height="60" /><br/>Spring</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=express&theme=dark" alt="Express.js" width="60" height="60" /><br/>Express.js</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=flask&theme=dark" alt="Flask" width="60" height="60" /><br/>Flask</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" alt="PostgreSQL" width="60" height="60" /><br/>PostgreSQL</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="60" height="60" /><br/>MySQL</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" alt="MongoDB" width="60" height="60" /><br/>MongoDB</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=sqlite&theme=dark" alt="SQLite" width="60" height="60" /><br/>SQLite</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" alt="Supabase" width="60" height="60" /><br/>Supabase</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=redis&theme=dark" alt="Redis" width="60" height="60" /><br/>Redis</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" alt="FastAPI" width="50" height="50" /><br/>FastAPI</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" alt="Node.js" width="50" height="50" /><br/>Node.js</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=spring&theme=dark" alt="Spring" width="50" height="50" /><br/>Spring</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=express&theme=dark" alt="Express.js" width="50" height="50" /><br/>Express.js</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=flask&theme=dark" alt="Flask" width="50" height="50" /><br/>Flask</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" alt="PostgreSQL" width="50" height="50" /><br/>PostgreSQL</td>
+    </tr>
+    <tr>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="50" height="50" /><br/>MySQL</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" alt="MongoDB" width="50" height="50" /><br/>MongoDB</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=sqlite&theme=dark" alt="SQLite" width="50" height="50" /><br/>SQLite</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" alt="Supabase" width="50" height="50" /><br/>Supabase</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=redis&theme=dark" alt="Redis" width="50" height="50" /><br/>Redis</td>
     </tr>
   </table>
 </details>
@@ -148,13 +154,15 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
   <br/>
   <table>
     <tr>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60" /><br/>Docker</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="60" height="60" /><br/>AWS</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" alt="Vercel" width="60" height="60" /><br/>Vercel</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="60" height="60" /><br/>GitHub</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git" width="60" height="60" /><br/>Git</td>
-      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" width="60" height="60" /><br/>Linux</td>
-      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="60" height="60" /><br/>Nginx</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="50" height="50" /><br/>Docker</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="50" height="50" /><br/>AWS</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" alt="Vercel" width="50" height="50" /><br/>Vercel</td>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="50" height="50" /><br/>GitHub</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git" width="50" height="50" /><br/>Git</td>
+      <td align="center" width="85"><img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" width="50" height="50" /><br/>Linux</td>
+    </tr>
+    <tr>
+      <td align="center" width="85"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="50" height="50" /><br/>Nginx</td>
     </tr>
   </table>
 </details>
@@ -164,18 +172,20 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
   <br/>
   <table>
     <tr>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" width="80" height="35" /><br/>Hugging Face</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" width="80" height="35" /><br/>OpenCV</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square" alt="PyQt6" width="80" height="35" /><br/>PyQt6</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/WebSocket-6C63FF?style=flat-square" alt="WebSocket" width="80" height="35" /><br/>WebSocket</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="BigQuery" width="80" height="35" /><br/>BigQuery</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white" alt="Render" width="80" height="35" /><br/>Render</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/Recharts-FF6384?style=flat-square" alt="Recharts" width="80" height="35" /><br/>Recharts</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/Zod-3068B7?style=flat-square" alt="Zod" width="80" height="35" /><br/>Zod</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" width="80" height="35" /><br/>Prisma</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" width="80" height="35" /><br/>Framer Motion</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="WebAssembly" width="80" height="35" /><br/>WebAssembly</td>
-      <td align="center" width="120"><img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square" alt="ONNX" width="80" height="35" /><br/>ONNX</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" width="70" height="28" /><br/>Hugging Face</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" width="70" height="28" /><br/>OpenCV</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square" alt="PyQt6" width="70" height="28" /><br/>PyQt6</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/WebSocket-6C63FF?style=flat-square" alt="WebSocket" width="70" height="28" /><br/>WebSocket</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="BigQuery" width="70" height="28" /><br/>BigQuery</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white" alt="Render" width="70" height="28" /><br/>Render</td>
+    </tr>
+    <tr>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/Recharts-FF6384?style=flat-square" alt="Recharts" width="70" height="28" /><br/>Recharts</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/Zod-3068B7?style=flat-square" alt="Zod" width="70" height="28" /><br/>Zod</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" width="70" height="28" /><br/>Prisma</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" width="70" height="28" /><br/>Framer Motion</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="WebAssembly" width="70" height="28" /><br/>WebAssembly</td>
+      <td align="center" width="95"><img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square" alt="ONNX" width="70" height="28" /><br/>ONNX</td>
     </tr>
   </table>
 </details>
