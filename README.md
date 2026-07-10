@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:FF2E63&height=240&section=header&text=Tanmay%20Mangal&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20Builder%20%7C%20FinTech%20Enthusiast%20%7C%20DSA%20Learner&descAlignY=60&descSize=18" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:7C3AED&height=240&section=header&text=Tanmay%20Mangal&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20%26%20FinTech%20Builder%20%7C%20Trading%20Systems%20Enthusiast&descAlignY=60&descSize=18" alt="Header" />
 
-<img src="https://avatars.githubusercontent.com/u/254906467?v=4" width="170" height="170" alt="Tanmay Mangal GitHub Avatar" />
+<img src="https://avatars.githubusercontent.com/u/254906467?v=4" width="160" height="160" style="border-radius:50%" alt="Tanmay Mangal" />
 
-# Hey, I'm Tanmay Mangal 👋
+# Tanmay Mangal
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=24&duration=2200&pause=700&center=true&vCenter=true&width=900&lines=B.Tech+Student;Full+Stack+Developer;AI+%2B+FinTech+Builder;Trading+Systems+Enthusiast;Building+real-world+software;DSA+%2B+System+Design+in+progress" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=2200&pause=700&center=true&vCenter=true&width=900&lines=B.Tech+Student;Full+Stack+Developer;AI+%2B+FinTech+Builder;Trading+Systems+Enthusiast;Building+real-world+software;DSA+%2B+System+Design+in+progress" alt="Typing SVG" />
 
 <p>
   <a href="https://www.linkedin.com/in/tanmaymangal/">
@@ -26,14 +26,14 @@
 <p>
   <img src="https://komarev.com/ghpvc/?username=tanmay-alpha&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/tanmay-alpha?label=Followers&style=for-the-badge&logo=github&color=6C63FF" alt="GitHub Followers" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20FinTech%20%7C%20Full%20Stack-FF2E63?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20FinTech%20%7C%20Full%20Stack-7C3AED?style=for-the-badge" alt="Focus" />
 </p>
 
 </div>
 
 ---
 
-## ⚡ Developer Identity
+## Developer Identity
 
 ```txt
 Name        : Tanmay Mangal
@@ -46,344 +46,39 @@ Mindset     : Build practical products, ship clean code, improve every day
 
 ---
 
-## 💫 About Me
+## About Me
 
-I am a **B.Tech student** and **full-stack developer** focused on building practical, useful, and technically strong software products.
+I am a **B.Tech student** and **full-stack developer** building practical, production-grade software. Not toy projects — real platforms with real architecture.
 
-I am currently exploring **Full Stack Development, AI/ML, Finance Technology, Trading Systems, System Design, Data Structures & Algorithms, and Developer Tools**.
-
-- 🔭 Building **AI, fintech, trading systems, automation, and full-stack web projects**
-- 🌱 Learning **DSA, React, Next.js, Backend Development, FastAPI, and System Design**
-- 🧠 Interested in **AI products, developer tooling, financial platforms, and scalable systems**
-- 📈 Strong interest in **stock market technology, screeners, paper trading, and data platforms**
-- 🤝 Open to collaboration on **open-source, AI tools, finance platforms, and web applications**
-- 🎯 Goal: Become ready for **software development internships**
-- 📫 Reach me at: **mangaltanmay7@gmail.com**
+- Building **AI, FinTech, trading systems, automation, and full-stack web products** from scratch
+- Exploring **stock screeners, market data pipelines, paper trading, and risk systems** as core domains
+- Learning **DSA in C++, React/Next.js, FastAPI, system design, and backend engineering**
+- Strong interest in **AI/ML applications, developer tooling, financial platforms, and scalable APIs**
+- Open to **internships, collaborations, and open-source contributions** in AI, FinTech, or full-stack
 
 ---
 
-## 🧬 My Build DNA
-
-```mermaid
-mindmap
-  root((Tanmay Mangal))
-    Full Stack
-      React
-      Next.js
-      TypeScript
-      Tailwind CSS
-      FastAPI
-      Spring Boot
-    AI and ML
-      Fraud Detection
-      Image Forensics
-      CodeBERT
-      Hugging Face
-      OpenCV
-    Finance Tech
-      Stock Screeners
-      Trading Terminals
-      Market Data
-      Paper Trading
-      Risk Systems
-    Developer Tools
-      Code Review Automation
-      CI/CD
-      AI Workspace
-      GitHub Actions
-    Foundations
-      DSA
-      System Design
-      Databases
-      Clean Architecture
-```
-
----
-
-## 🌌 Animated Skills Orbit
+## Quant Skill Reactor
 
 <div align="center">
 
-<img src="./assets/neon-skill-orbit.svg" alt="Animated Skills Orbit" />
+<img src="./assets/quant-skill-reactor.svg" alt="Tanmay Quant Skill Reactor" />
 
 </div>
 
 ---
 
-## 🚀 Main Project Universe
+## AI Market Intelligence Terminal
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-### 🔍 Lumint
+<img src="./assets/market-ai-terminal.svg" alt="AI Market Terminal" />
 
-AI-powered fraud detection platform for India's digital payment ecosystem.
-
-**What it does**
-- Detects suspicious screenshots, documents, and links
-- Produces risk score and plain-English explanation
-- Built around payment-fraud awareness
-- Focuses on privacy and open-source accessibility
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/AI-Fraud%20Detection-DC2626?style=flat-square" />
-
-<br/>
-
-🔗 [Repository](https://github.com/tanmay-alpha/Lumint)  
-🌐 [Live Demo](https://lumint-pi.vercel.app)
-
-</td>
-<td width="50%">
-
-### 📊 TradeVed Screener
-
-Data-first Indian stock screener focused on building a serious equity research database.
-
-**What it does**
-- Indian equity research and screening
-- Company master data, prices, fundamentals, ratios
-- Supabase for live reads
-- BigQuery for analytics, history, audits, and backtesting direction
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Finance-Indian%20Markets-orange?style=flat-square" />
-<img src="https://img.shields.io/badge/Data%20Platform-181717?style=flat-square" />
-
-<br/>
-
-🔗 [Repository](https://github.com/tanmay-alpha/tradeved-screener)  
-🌐 [Live Demo](https://tradevedscreener.vercel.app)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 📈 MAET
-
-Scanner-first Indian market intelligence terminal for shortlisting NSE stocks.
-
-**What it does**
-- NSE company universe support
-- Stock scanner and filters
-- Charts, indicators, market data
-- Supabase database and Render backend direction
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/NSE%20Screener-00D9FF?style=flat-square" />
-
-<br/>
-
-🔗 [Repository](https://github.com/tanmay-alpha/MAET)  
-🌐 [Live Demo](https://maet-pi.vercel.app)
-
-</td>
-<td width="50%">
-
-### 🧠 Indian Algo Trading Platform
-
-Safety-first Indian market analytics and paper trading workspace.
-
-**What it does**
-- Market analytics terminal
-- Paper OMS and dry-run order validation
-- Read-only broker context
-- AI advisory notes
-- Live execution locked for safety
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/WebSocket-6C63FF?style=flat-square" />
-<img src="https://img.shields.io/badge/Trading%20Systems-FFA116?style=flat-square" />
-
-<br/>
-
-🔗 [Repository](https://github.com/tanmay-alpha/indian-algo-trading-platform)  
-🌐 [Live Demo](https://indian-algo-trading-platform.vercel.app)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🧮 FinCalc India
-
-Financial calculator suite for Indian investors and tax filers.
-
-**What it does**
-- SIP, EMI, FD, PPF, Lumpsum, and Income Tax calculators
-- Indian number formatting
-- Clean finance-focused UI
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/Recharts-FF6384?style=flat-square" />
-
-<br/>
-
-🔗 [Repository](https://github.com/tanmay-alpha/fincalc-india)  
-🌐 [Live Demo](https://fincalc-india.vercel.app)
-
-</td>
-<td width="50%">
-
-### 🖼️ AI Image Forensic Screener
-
-Desktop tool for detecting AI-generated and deepfake images.
-
-**What it does**
-- ML-based image detection
-- EXIF, XMP, IPTC metadata analysis
-- C2PA provenance support
-- Exportable forensic reports
-- SQLite scan history
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square" />
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-
-<br/>
-
-🔗 [Repository](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🔎 CodeLens
-
-Semantic automated code review system powered by fine-tuned CodeBERT.
-
-**What it does**
-- Detects bugs missed by normal linters
-- Finds N+1 query patterns
-- Detects hardcoded secrets
-- Flags sync I/O inside async paths
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/CodeBERT-6C63FF?style=flat-square" />
-
-<br/>
-
-🔗 [Repository](https://github.com/tanmay-alpha/codelens)
-
-</td>
-<td width="50%">
-
-### 🔥 Crucible
-
-From-scratch ONNX inference engine in C++17.
-
-**What it does**
-- Lightweight ONNX inference engine
-- Browser inference through WebAssembly
-- No Python required at runtime
-- Rust CLI, Python bindings, FastAPI server, WASM surface
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" />
-<img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square" />
-
-<br/>
-
-🔗 [Repository](https://github.com/tanmay-alpha/Crucible)
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
-## 🌐 Web, Portfolio & Tooling Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎓 FOSSEE Workshop Booking
-
-Responsive workshop booking interface built with React.
-
-**Tech:** React, Vite, Tailwind CSS, React Router
-
-🔗 [Repository](https://github.com/tanmay-alpha/fossee-workshop-booking)  
-🌐 [Live Demo](https://fossee-workshop-platform.vercel.app)
-
-</td>
-<td width="50%">
-
-### 🧑‍💻 Personal Portfolio
-
-Modern personal portfolio website.
-
-**Tech:** Next.js 15, TypeScript, Tailwind CSS, Framer Motion
-
-🔗 [Repository](https://github.com/tanmay-alpha/tanmay-portfolio)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### ⚡ Dynamic Bubble Website
-
-Responsive digital services agency website template.
-
-**Tech:** HTML5, CSS3, JavaScript
-
-🔗 [Repository](https://github.com/tanmay-alpha/Dynamic-Bubble-Website)
-
-</td>
-<td width="50%">
-
-### 🧰 AI Workspace
-
-Reusable workflow toolkit for AI-assisted software engineering.
-
-**Tech:** PowerShell, CI/CD, GitHub Actions, Prompt Playbooks, Developer Workflow
-
-🔗 [Repository](https://github.com/tanmay-alpha/-ai-workspace)
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Skills Arsenal
+## Skills Arsenal
 
 <div align="center">
 
@@ -405,13 +100,13 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 <br/><br/>
 
-### Databases, Cloud & Infra
+### Databases, Cloud and Infra
 
 <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,supabase,redis,docker,vercel,git,github,linux&theme=dark" alt="Databases and Infra" />
 
 <br/><br/>
 
-### AI, Data, Finance & Specialized Tools
+### AI, Data, Finance and Specialized Tools
 
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
@@ -424,12 +119,291 @@ Reusable workflow toolkit for AI-assisted software engineering.
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
 <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
 <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge" />
 
 </div>
 
 ---
 
-## 🧠 Learning Radar
+## Main Project Universe
+
+<table>
+<tr>
+<td width="50%">
+
+### Lumint
+
+AI-powered fraud detection platform for India's digital payment ecosystem.
+
+**What it does**
+- Detects suspicious screenshots, documents, and links
+- Produces risk score and plain-English explanation
+- Built around payment-fraud awareness for India
+- Focused on privacy and open-source accessibility
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/AI-Fraud%20Detection-DC2626?style=flat-square" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/Lumint) | [Live Demo](https://lumint-pi.vercel.app)
+
+</td>
+<td width="50%">
+
+### TradeVed Screener
+
+Data-first Indian stock screener focused on building a serious equity research database.
+
+**What it does**
+- Indian equity research and screening platform
+- Company master data, prices, fundamentals, ratios
+- Supabase for live reads and real-time updates
+- BigQuery for analytics, history, audits, and backtesting
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Finance-Indian%20Markets-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/Data%20Platform-181717?style=flat-square" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/tradeved-screener) | [Live Demo](https://tradevedscreener.vercel.app)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### MAET
+
+Scanner-first Indian market intelligence terminal for shortlisting NSE stocks.
+
+**What it does**
+- NSE company universe with full stock scanner
+- Chart overlays, indicators, and market data
+- Supabase database with Render backend
+- Built for active screener-driven research
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/NSE%20Screener-00D9FF?style=flat-square" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/MAET) | [Live Demo](https://maet-pi.vercel.app)
+
+</td>
+<td width="50%">
+
+### Indian Algo Trading Platform
+
+Safety-first Indian market analytics and paper trading workspace.
+
+**What it does**
+- Market analytics terminal with live data feed
+- Paper OMS and dry-run order validation
+- Read-only broker context integration
+- AI advisory notes and signal engine
+- Live execution locked for safety by design
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/WebSocket-6C63FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Paper%20Trading-FFA116?style=flat-square" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/indian-algo-trading-platform) | [Live Demo](https://indian-algo-trading-platform.vercel.app)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### FinCalc India
+
+Financial calculator suite for Indian investors and tax filers.
+
+**What it does**
+- SIP, EMI, FD, PPF, Lumpsum, and Income Tax calculators
+- Indian number formatting and localization
+- Clean, finance-focused UI with interactive charts
+- Lightweight and fast for everyday investor use
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Recharts-FF6384?style=flat-square" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/fincalc-india) | [Live Demo](https://fincalc-india.vercel.app)
+
+</td>
+<td width="50%">
+
+### AI Image Forensic Screener
+
+Desktop tool for detecting AI-generated and deepfake images.
+
+**What it does**
+- ML-based image authenticity detection
+- EXIF, XMP, IPTC metadata forensic analysis
+- C2PA provenance support
+- Exportable forensic reports with SQLite scan history
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square" />
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### CodeLens
+
+Semantic automated code review system powered by fine-tuned CodeBERT.
+
+**What it does**
+- Detects bugs that normal linters miss
+- Finds N+1 query patterns and hardcoded secrets
+- Flags sync I/O inside async code paths
+- Java 21 orchestrator + FastAPI ML inference backend
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/CodeBERT-6C63FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/codelens)
+
+</td>
+<td width="50%">
+
+### Crucible
+
+From-scratch ONNX inference engine in C++17.
+
+**What it does**
+- Lightweight ONNX inference engine, no Python at runtime
+- Browser inference via WebAssembly surface
+- Rust CLI, Python bindings, FastAPI server
+- Clean cross-language systems architecture
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/Crucible)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Web, Portfolio and Tooling Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### FOSSEE Workshop Booking
+
+Responsive workshop booking interface built with React.
+
+**Tech:** React, Vite, Tailwind CSS, React Router
+
+[Repository](https://github.com/tanmay-alpha/fossee-workshop-booking) | [Live Demo](https://fossee-workshop-platform.vercel.app)
+
+</td>
+<td width="50%">
+
+### Personal Portfolio
+
+Modern personal portfolio website.
+
+**Tech:** Next.js 15, TypeScript, Tailwind CSS, Framer Motion
+
+[Repository](https://github.com/tanmay-alpha/tanmay-portfolio)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### Dynamic Bubble Website
+
+Responsive digital services agency website template.
+
+**Tech:** HTML5, CSS3, JavaScript
+
+[Repository](https://github.com/tanmay-alpha/Dynamic-Bubble-Website)
+
+</td>
+<td width="50%">
+
+### AI Workspace
+
+Reusable workflow toolkit for AI-assisted software engineering.
+
+**Tech:** PowerShell, CI/CD, GitHub Actions, Prompt Playbooks
+
+[Repository](https://github.com/tanmay-alpha/-ai-workspace)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Project Radar
+
+<div align="center">
+
+<img src="./assets/project-radar.svg" alt="Tanmay Project Radar" />
+
+</div>
+
+---
+
+## Learning Radar
 
 <table>
 <tr>
@@ -438,7 +412,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
 <td>45%</td>
 </tr>
 <tr>
-<td><b>React & Next.js</b></td>
+<td><b>React and Next.js</b></td>
 <td>████████░░░░░░░░</td>
 <td>40%</td>
 </tr>
@@ -448,7 +422,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
 <td>35%</td>
 </tr>
 <tr>
-<td><b>FastAPI + APIs</b></td>
+<td><b>FastAPI and APIs</b></td>
 <td>███████░░░░░░░░░</td>
 <td>35%</td>
 </tr>
@@ -471,7 +445,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## 🧠 Problem Solving
+## Problem Solving
 
 <div align="center">
 
@@ -483,7 +457,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## 📊 Live GitHub Stats
+## Live GitHub Stats
 
 <div align="center">
 
@@ -513,33 +487,31 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## 🌌 3D Contribution Universe
+## 3D Contribution Universe
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contribution Calendar" />
+<img src="https://raw.githubusercontent.com/tanmay-alpha/tanmay-alpha/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contribution Calendar" />
 
 </div>
 
 ---
 
-## 🧩 Engineering Direction
+## Engineering Direction
 
 ```mermaid
 flowchart LR
     A[DSA + C++ Foundation] --> B[Full Stack Engineering]
     B --> C[Backend APIs + Databases]
     C --> D[AI and ML Systems]
-    C --> E[FinTech + Trading Platforms]
-    D --> F[Production-Ready AI Tools]
-    E --> G[Market Data + Screeners + Paper Trading]
-    F --> H[Software Development Internship Ready]
-    G --> H
+    C --> E[FinTech and Trading Platforms]
+    D --> F[Internship Ready Engineer]
+    E --> F
 ```
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -562,8 +534,8 @@ flowchart LR
 
 <div align="center">
 
-### “Building projects, solving problems, and improving every day.”
+### "Building products, decoding markets, training models, and improving every day."
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:FF2E63&height=150&section=footer" alt="Footer Wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:7C3AED&height=150&section=footer" alt="Footer Wave" />
 
 </div>

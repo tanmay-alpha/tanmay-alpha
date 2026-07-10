@@ -1,0 +1,381 @@
+<svg width="1200" height="480" viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="rbg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="50%" stop-color="#060a14"/>
+      <stop offset="100%" stop-color="#030508"/>
+    </radialGradient>
+
+    <radialGradient id="radarBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0d1a3a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#040a1a" stop-opacity="0.8"/>
+    </radialGradient>
+
+    <linearGradient id="sweepFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00D9FF" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#00D9FF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00D9FF" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <filter id="rglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="dotGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="radarClip">
+      <circle cx="380" cy="250" r="195"/>
+    </clipPath>
+
+    <style>
+      .rTitle {
+        font: 900 26px 'Segoe UI', Arial, sans-serif;
+        fill: #ffffff;
+        letter-spacing: 4px;
+      }
+      .rSub {
+        font: 600 11px 'Segoe UI', Arial, sans-serif;
+        fill: #00D9FF;
+        letter-spacing: 2px;
+      }
+      .projLabel {
+        font: 700 13px 'Segoe UI', Arial, sans-serif;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .projSub {
+        font: 500 9px 'Segoe UI', Arial, sans-serif;
+        fill: #8899cc;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .radarLabel {
+        font: 700 11px 'Segoe UI', Arial, sans-serif;
+        fill: #00D9FF;
+        letter-spacing: 1px;
+      }
+      .statusLabel {
+        font: 600 10px 'Segoe UI', Arial, sans-serif;
+        fill: #445566;
+      }
+      .metricVal {
+        font: 800 22px 'Segoe UI', Arial, sans-serif;
+        fill: #00D9FF;
+        text-anchor: middle;
+      }
+      .metricLabel {
+        font: 500 9px 'Segoe UI', Arial, sans-serif;
+        fill: #556677;
+        text-anchor: middle;
+        letter-spacing: 1px;
+      }
+      .sectionHead {
+        font: 700 10px 'Segoe UI', Arial, sans-serif;
+        fill: #00D9FF;
+        letter-spacing: 2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="480" rx="16" fill="url(#rbg)"/>
+
+  <!-- Corner brackets -->
+  <g stroke="#00D9FF" stroke-width="2" fill="none" opacity="0.35">
+    <path d="M14 32 L14 14 L32 14"/>
+    <path d="M1186 32 L1186 14 L1168 14"/>
+    <path d="M14 448 L14 466 L32 466"/>
+    <path d="M1186 448 L1186 466 L1168 466"/>
+  </g>
+
+  <!-- HEADER -->
+  <text x="600" y="36" class="rTitle" text-anchor="middle" filter="url(#rglow)">TANMAY PROJECT RADAR</text>
+  <text x="600" y="56" class="rSub" text-anchor="middle">ACTIVE PROJECTS  |  AI + FINTECH + SYSTEMS + TOOLS</text>
+  <line x1="20" y1="66" x2="1180" y2="66" stroke="#00D9FF" stroke-width="1" opacity="0.15"/>
+
+  <!-- ======================== -->
+  <!-- RADAR: center at 380,250 r=195 -->
+  <!-- ======================== -->
+
+  <!-- Radar rings -->
+  <circle cx="380" cy="250" r="195" fill="url(#radarBg)" stroke="#00D9FF" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="380" cy="250" r="150" fill="none" stroke="#00D9FF" stroke-width="1" stroke-dasharray="5 8" opacity="0.25"/>
+  <circle cx="380" cy="250" r="105" fill="none" stroke="#6C63FF" stroke-width="1" stroke-dasharray="5 8" opacity="0.25"/>
+  <circle cx="380" cy="250" r="60"  fill="none" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4 6" opacity="0.25"/>
+  <circle cx="380" cy="250" r="20"  fill="#0d1a3a" stroke="#00D9FF" stroke-width="2" opacity="0.8"/>
+
+  <!-- Radar cross lines -->
+  <line x1="185" y1="250" x2="575" y2="250" stroke="#00D9FF" stroke-width="1" opacity="0.15"/>
+  <line x1="380" y1="55"  x2="380" y2="445" stroke="#00D9FF" stroke-width="1" opacity="0.15"/>
+  <line x1="245" y1="115" x2="515" y2="385" stroke="#00D9FF" stroke-width="0.8" opacity="0.1"/>
+  <line x1="515" y1="115" x2="245" y2="385" stroke="#00D9FF" stroke-width="0.8" opacity="0.1"/>
+
+  <!-- Radar sweep (rotating sector) -->
+  <g clip-path="url(#radarClip)">
+    <path d="M380,250 L380,55 A195,195 0 0,1 575,250 Z" fill="url(#sweepFill)">
+      <animateTransform attributeName="transform" type="rotate" from="0 380 250" to="360 380 250" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <!-- Sweep trail -->
+    <path d="M380,250 L380,55 A195,195 0 0,1 556,153 Z" fill="#00D9FF" fill-opacity="0.05">
+      <animateTransform attributeName="transform" type="rotate" from="0 380 250" to="360 380 250" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Radar center dot -->
+  <circle cx="380" cy="250" r="8" fill="#00D9FF" filter="url(#dotGlow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ======================== -->
+  <!-- PROJECT NODES on radar  -->
+  <!-- 8 projects at angles around radar, r=175 from center 380,250 -->
+  <!-- Lumint: 0deg   -> (555,250) -->
+  <!-- TradeVed: 45deg -> (504,374) -->
+  <!-- MAET: 90deg    -> (380,425) -->
+  <!-- FinCalc: 135deg -> (256,374) -->
+  <!-- CodeLens: 180deg -> (205,250) -->
+  <!-- Crucible: 225deg -> (256,126) -->
+  <!-- AI Forensics: 270deg -> (380,75) -->
+  <!-- Portfolio: 315deg -> (504,126) -->
+  <!-- ======================== -->
+
+  <!-- Lumint (0 deg, 175px) = (555, 250) -->
+  <g filter="url(#rglow)">
+    <rect x="518" y="228" width="80" height="44" rx="8" fill="#1a0a2e" stroke="#7C3AED" stroke-width="2"/>
+    <text x="558" y="247" class="projLabel" font-size="11px">Lumint</text>
+    <text x="558" y="261" class="projSub">AI Fraud</text>
+    <circle cx="519" cy="250" r="5" fill="#7C3AED">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="388" y1="250" x2="518" y2="250" stroke="#7C3AED" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- TradeVed (45 deg) = (504, 374) -->
+  <g filter="url(#rglow)">
+    <rect x="464" y="352" width="88" height="44" rx="8" fill="#0a1f10" stroke="#00ff88" stroke-width="2"/>
+    <text x="508" y="371" class="projLabel" font-size="11px">TradeVed</text>
+    <text x="508" y="385" class="projSub">Screener</text>
+    <circle cx="464" cy="374" r="5" fill="#00ff88">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="384" y1="256" x2="464" y2="352" stroke="#00ff88" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- MAET (90 deg) = (380, 425) -->
+  <g filter="url(#rglow)">
+    <rect x="340" y="418" width="80" height="44" rx="8" fill="#0e1a2d" stroke="#00D9FF" stroke-width="2"/>
+    <text x="380" y="437" class="projLabel" font-size="11px">MAET</text>
+    <text x="380" y="451" class="projSub">Terminal</text>
+    <circle cx="380" cy="418" r="5" fill="#00D9FF">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="380" y1="258" x2="380" y2="418" stroke="#00D9FF" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- FinCalc (135 deg) = (256, 374) -->
+  <g filter="url(#rglow)">
+    <rect x="192" y="352" width="80" height="44" rx="8" fill="#1a1000" stroke="#F59E0B" stroke-width="2"/>
+    <text x="232" y="371" class="projLabel" font-size="11px">FinCalc</text>
+    <text x="232" y="385" class="projSub">Finance</text>
+    <circle cx="272" cy="374" r="5" fill="#F59E0B">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="376" y1="256" x2="272" y2="374" stroke="#F59E0B" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- CodeLens (180 deg) = (205, 250) -->
+  <g filter="url(#rglow)">
+    <rect x="142" y="228" width="86" height="44" rx="8" fill="#0e2a20" stroke="#3b82f6" stroke-width="2"/>
+    <text x="185" y="247" class="projLabel" font-size="11px">CodeLens</text>
+    <text x="185" y="261" class="projSub">AI Review</text>
+    <circle cx="228" cy="250" r="5" fill="#3b82f6">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="372" y1="250" x2="228" y2="250" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- Crucible (225 deg) = (256, 126) -->
+  <g filter="url(#rglow)">
+    <rect x="192" y="104" width="82" height="44" rx="8" fill="#1a0505" stroke="#ef4444" stroke-width="2"/>
+    <text x="233" y="123" class="projLabel" font-size="11px">Crucible</text>
+    <text x="233" y="137" class="projSub">ONNX Engine</text>
+    <circle cx="274" cy="126" r="5" fill="#ef4444">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="376" y1="244" x2="274" y2="126" stroke="#ef4444" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- AI Forensics (270 deg) = (380, 75) -->
+  <g filter="url(#rglow)">
+    <rect x="310" y="56" width="140" height="44" rx="8" fill="#1a0a1a" stroke="#a855f7" stroke-width="2"/>
+    <text x="380" y="75" class="projLabel" font-size="11px">AI Forensics</text>
+    <text x="380" y="89" class="projSub">Deepfake Detect</text>
+    <circle cx="380" cy="100" r="5" fill="#a855f7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="380" y1="242" x2="380" y2="100" stroke="#a855f7" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- Portfolio (315 deg) = (504, 126) -->
+  <g filter="url(#rglow)">
+    <rect x="466" y="104" width="86" height="44" rx="8" fill="#0a1520" stroke="#06b6d4" stroke-width="2"/>
+    <text x="509" y="123" class="projLabel" font-size="11px">Portfolio</text>
+    <text x="509" y="137" class="projSub">Next.js 15</text>
+    <circle cx="466" cy="126" r="5" fill="#06b6d4">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="384" y1="244" x2="466" y2="126" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- ======================== -->
+  <!-- RIGHT PANEL: Project Cards -->
+  <!-- ======================== -->
+  <rect x="640" y="75" width="540" height="370" rx="10" fill="#060c16" stroke="#0d2030" stroke-width="1"/>
+  <text x="660" y="98" class="sectionHead">PROJECT ROSTER  //  STATUS BOARD</text>
+  <line x1="650" y1="105" x2="1165" y2="105" stroke="#00D9FF" stroke-width="1" opacity="0.1"/>
+
+  <!-- Project list rows -->
+  <g class="statusLabel">
+    <!-- Row headers -->
+    <text x="660"  y="120" class="radarLabel" font-size="9px" opacity="0.5">PROJECT</text>
+    <text x="840"  y="120" class="radarLabel" font-size="9px" opacity="0.5">STACK</text>
+    <text x="1040" y="120" class="radarLabel" font-size="9px" opacity="0.5">STATUS</text>
+    <line x1="650" y1="125" x2="1165" y2="125" stroke="#1a3050" stroke-width="1"/>
+
+    <!-- Lumint -->
+    <rect x="650" y="130" width="530" height="30" rx="4" fill="#0d1a2e" opacity="0.5"/>
+    <circle cx="665" cy="145" r="4" fill="#7C3AED"/>
+    <text x="678" y="149" class="projLabel" font-size="11px" text-anchor="start">Lumint</text>
+    <text x="840" y="149" class="projSub" text-anchor="start" font-size="10px" fill="#8899cc">Next.js | Python | AI</text>
+    <text x="1040" y="149" font-size="10px" fill="#00ff88" font-weight="700">LIVE</text>
+    <circle cx="1080" cy="145" r="4" fill="#00ff88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- TradeVed -->
+    <rect x="650" y="164" width="530" height="30" rx="4" fill="#060e16" opacity="0.5"/>
+    <circle cx="665" cy="179" r="4" fill="#00ff88"/>
+    <text x="678" y="183" class="projLabel" font-size="11px" text-anchor="start">TradeVed Screener</text>
+    <text x="840" y="183" class="projSub" text-anchor="start" font-size="10px" fill="#8899cc">Supabase | BigQuery</text>
+    <text x="1040" y="183" font-size="10px" fill="#00ff88" font-weight="700">LIVE</text>
+    <circle cx="1080" cy="179" r="4" fill="#00ff88">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- MAET -->
+    <rect x="650" y="198" width="530" height="30" rx="4" fill="#0d1a2e" opacity="0.5"/>
+    <circle cx="665" cy="213" r="4" fill="#00D9FF"/>
+    <text x="678" y="217" class="projLabel" font-size="11px" text-anchor="start">MAET Terminal</text>
+    <text x="840" y="217" class="projSub" text-anchor="start" font-size="10px" fill="#8899cc">React | FastAPI | NSE</text>
+    <text x="1040" y="217" font-size="10px" fill="#00ff88" font-weight="700">LIVE</text>
+    <circle cx="1080" cy="213" r="4" fill="#00ff88">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Algo Trading -->
+    <rect x="650" y="232" width="530" height="30" rx="4" fill="#060e16" opacity="0.5"/>
+    <circle cx="665" cy="247" r="4" fill="#F59E0B"/>
+    <text x="678" y="251" class="projLabel" font-size="11px" text-anchor="start">Indian Algo Trading</text>
+    <text x="840" y="251" class="projSub" text-anchor="start" font-size="10px" fill="#8899cc">Next.js | WebSocket</text>
+    <text x="1040" y="251" font-size="10px" fill="#00ff88" font-weight="700">LIVE</text>
+    <circle cx="1080" cy="247" r="4" fill="#00ff88">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- FinCalc -->
+    <rect x="650" y="266" width="530" height="30" rx="4" fill="#0d1a2e" opacity="0.5"/>
+    <circle cx="665" cy="281" r="4" fill="#F59E0B"/>
+    <text x="678" y="285" class="projLabel" font-size="11px" text-anchor="start">FinCalc India</text>
+    <text x="840" y="285" class="projSub" text-anchor="start" font-size="10px" fill="#8899cc">Next.js | Recharts</text>
+    <text x="1040" y="285" font-size="10px" fill="#00ff88" font-weight="700">LIVE</text>
+    <circle cx="1080" cy="281" r="4" fill="#00ff88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- CodeLens -->
+    <rect x="650" y="300" width="530" height="30" rx="4" fill="#060e16" opacity="0.5"/>
+    <circle cx="665" cy="315" r="4" fill="#3b82f6"/>
+    <text x="678" y="319" class="projLabel" font-size="11px" text-anchor="start">CodeLens</text>
+    <text x="840" y="319" class="projSub" text-anchor="start" font-size="10px" fill="#8899cc">Java | Spring | CodeBERT</text>
+    <text x="1040" y="319" font-size="10px" fill="#F59E0B" font-weight="700">WIP</text>
+
+    <!-- Crucible -->
+    <rect x="650" y="334" width="530" height="30" rx="4" fill="#0d1a2e" opacity="0.5"/>
+    <circle cx="665" cy="349" r="4" fill="#ef4444"/>
+    <text x="678" y="353" class="projLabel" font-size="11px" text-anchor="start">Crucible</text>
+    <text x="840" y="353" class="projSub" text-anchor="start" font-size="10px" fill="#8899cc">C++17 | Rust | ONNX</text>
+    <text x="1040" y="353" font-size="10px" fill="#F59E0B" font-weight="700">WIP</text>
+
+    <!-- AI Forensics -->
+    <rect x="650" y="368" width="530" height="30" rx="4" fill="#060e16" opacity="0.5"/>
+    <circle cx="665" cy="383" r="4" fill="#a855f7"/>
+    <text x="678" y="387" class="projLabel" font-size="11px" text-anchor="start">AI Image Forensics</text>
+    <text x="840" y="387" class="projSub" text-anchor="start" font-size="10px" fill="#8899cc">Python | PyQt6 | HuggingFace</text>
+    <text x="1040" y="387" font-size="10px" fill="#00ff88" font-weight="700">SHIPPED</text>
+    <circle cx="1100" cy="383" r="4" fill="#00ff88">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ======================== -->
+  <!-- BOTTOM METRICS BAR -->
+  <!-- ======================== -->
+  <rect x="0" y="420" width="1200" height="60" rx="0" fill="#040b12" opacity="0.9"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="#00D9FF" stroke-width="1" opacity="0.12"/>
+
+  <text x="100" y="446" class="metricVal">8</text>
+  <text x="100" y="464" class="metricLabel">PROJECTS</text>
+
+  <line x1="180" y1="422" x2="180" y2="476" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="270" y="446" class="metricVal" fill="#00ff88">5</text>
+  <text x="270" y="464" class="metricLabel">DEPLOYED</text>
+
+  <line x1="350" y1="422" x2="350" y2="476" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="450" y="446" class="metricVal" fill="#F59E0B">2</text>
+  <text x="450" y="464" class="metricLabel">IN PROGRESS</text>
+
+  <line x1="540" y1="422" x2="540" y2="476" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="650" y="446" class="metricVal" fill="#a855f7">4</text>
+  <text x="650" y="464" class="metricLabel">TECH DOMAINS</text>
+
+  <line x1="750" y1="422" x2="750" y2="476" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="870" y="446" class="metricVal" fill="#6C63FF">12+</text>
+  <text x="870" y="464" class="metricLabel">TECH STACKS</text>
+
+  <line x1="960" y1="422" x2="960" y2="476" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="1080" y="446" class="metricVal" fill="#00D9FF">100%</text>
+  <text x="1080" y="464" class="metricLabel">REAL-WORLD</text>
+
+  <!-- Scan line -->
+  <rect x="0" y="0" width="1200" height="1.5" fill="#00D9FF" opacity="0.3">
+    <animate attributeName="y" values="0;475;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.05;0.3" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Floating particles -->
+  <circle cx="600" cy="250" r="1.5" fill="#00D9FF" opacity="0.5">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="160" r="1.5" fill="#6C63FF" opacity="0.5">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1150" cy="300" r="1.5" fill="#F59E0B" opacity="0.5">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
