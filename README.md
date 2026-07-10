@@ -21,12 +21,21 @@
   <a href="https://github.com/tanmay-alpha?tab=repositories">
     <img src="https://img.shields.io/badge/GitHub-All%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Projects" />
   </a>
+  <a href="https://tanmay-portfolio-coral.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Website-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=tanmay-alpha&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/tanmay-alpha?label=Followers&style=for-the-badge&logo=github&color=6C63FF" alt="GitHub Followers" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20FinTech%20%7C%20Full%20Stack-7C3AED?style=for-the-badge" alt="Focus" />
+  <a href="https://github.com/tanmay-alpha">
+    <img src="https://komarev.com/ghpvc/?username=tanmay-alpha&color=00D9FF&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0a1520" alt="Profile Views" />
+  </a>
+  <a href="https://github.com/tanmay-alpha">
+    <img src="https://img.shields.io/github/followers/tanmay-alpha?style=for-the-badge&color=00D9FF&labelColor=0a1520" alt="GitHub Followers" />
+  </a>
+  <a href="https://github.com/tanmay-alpha?tab=repositories">
+    <img src="https://img.shields.io/github/stars/tanmay-alpha?style=for-the-badge&color=00D9FF&labelColor=0a1520" alt="GitHub Stars" />
+  </a>
 </p>
 
 </div>
@@ -78,50 +87,98 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
 
 ---
 
-## Skills Arsenal
+## Technical Skills
 
-<div align="center">
+<details open>
+  <summary><b>💻 Programming Languages</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="60" height="60" /><br/>C++</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="60" height="60" /><br/>Python</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="60" height="60" /><br/>Java</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="60" height="60" /><br/>JavaScript</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="60" height="60" /><br/>TypeScript</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=rust&theme=dark" alt="Rust" width="60" height="60" /><br/>Rust</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=bash&theme=dark" alt="Bash" width="60" height="60" /><br/>Bash</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=powershell&theme=dark" alt="PowerShell" width="60" height="60" /><br/>PowerShell</td>
+    </tr>
+  </table>
+</details>
 
-### Core Languages
+<details open>
+  <summary><b>🌐 Frontend Development</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="60" height="60" /><br/>React</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js" width="60" height="60" /><br/>Next.js</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="Redux" width="60" height="60" /><br/>Redux</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" alt="Tailwind CSS" width="60" height="60" /><br/>Tailwind CSS</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=vite&theme=dark" alt="Vite" width="60" height="60" /><br/>Vite</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma" width="60" height="60" /><br/>Figma</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=html&theme=dark" alt="HTML5" width="60" height="60" /><br/>HTML5</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=css&theme=dark" alt="CSS3" width="60" height="60" /><br/>CSS3</td>
+    </tr>
+  </table>
+</details>
 
-<img src="https://skillicons.dev/icons?i=cpp,python,java,js,ts,html,css,bash,powershell,rust&theme=dark" alt="Core Languages" />
+<details open>
+  <summary><b>⚙️ Backend and Databases</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" alt="FastAPI" width="60" height="60" /><br/>FastAPI</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" alt="Node.js" width="60" height="60" /><br/>Node.js</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=spring&theme=dark" alt="Spring" width="60" height="60" /><br/>Spring</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=express&theme=dark" alt="Express.js" width="60" height="60" /><br/>Express.js</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=flask&theme=dark" alt="Flask" width="60" height="60" /><br/>Flask</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" alt="PostgreSQL" width="60" height="60" /><br/>PostgreSQL</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="MySQL" width="60" height="60" /><br/>MySQL</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" alt="MongoDB" width="60" height="60" /><br/>MongoDB</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=sqlite&theme=dark" alt="SQLite" width="60" height="60" /><br/>SQLite</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" alt="Supabase" width="60" height="60" /><br/>Supabase</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=redis&theme=dark" alt="Redis" width="60" height="60" /><br/>Redis</td>
+    </tr>
+  </table>
+</details>
 
-<br/><br/>
+<details open>
+  <summary><b>☁️ DevOps, Cloud and Tooling</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="60" height="60" /><br/>Docker</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="60" height="60" /><br/>AWS</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" alt="Vercel" width="60" height="60" /><br/>Vercel</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="60" height="60" /><br/>GitHub</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git" width="60" height="60" /><br/>Git</td>
+      <td align="center" width="100"><img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" width="60" height="60" /><br/>Linux</td>
+      <td align="center" width="100"><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="Nginx" width="60" height="60" /><br/>Nginx</td>
+    </tr>
+  </table>
+</details>
 
-### Frontend Engineering
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,vite,figma&theme=dark" alt="Frontend Skills" />
-
-<br/><br/>
-
-### Backend Engineering
-
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,spring,express,flask&theme=dark" alt="Backend Skills" />
-
-<br/><br/>
-
-### Databases, Cloud and Infra
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,supabase,redis,docker,vercel,git,github,linux&theme=dark" alt="Databases and Infra" />
-
-<br/><br/>
-
-### AI, Data, Finance and Specialized Tools
-
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/PyQt6-41CD52?style=for-the-badge" />
-<img src="https://img.shields.io/badge/WebSocket-6C63FF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" />
-<img src="https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Zod-3068B7?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-<img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
-<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" />
-<img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge" />
-
-</div>
+<details open>
+  <summary><b>📈 AI, Machine Learning and Specialized Tools</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" width="80" height="35" /><br/>Hugging Face</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" width="80" height="35" /><br/>OpenCV</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square" alt="PyQt6" width="80" height="35" /><br/>PyQt6</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/WebSocket-6C63FF?style=flat-square" alt="WebSocket" width="80" height="35" /><br/>WebSocket</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="BigQuery" width="80" height="35" /><br/>BigQuery</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white" alt="Render" width="80" height="35" /><br/>Render</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/Recharts-FF6384?style=flat-square" alt="Recharts" width="80" height="35" /><br/>Recharts</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/Zod-3068B7?style=flat-square" alt="Zod" width="80" height="35" /><br/>Zod</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" width="80" height="35" /><br/>Prisma</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" width="80" height="35" /><br/>Framer Motion</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="WebAssembly" width="80" height="35" /><br/>WebAssembly</td>
+      <td align="center" width="120"><img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square" alt="ONNX" width="80" height="35" /><br/>ONNX</td>
+    </tr>
+  </table>
+</details>
 
 ---
 
@@ -360,7 +417,7 @@ Modern personal portfolio website.
 
 **Tech:** Next.js 15, TypeScript, Tailwind CSS, Framer Motion
 
-[Repository](https://github.com/tanmay-alpha/tanmay-portfolio)
+[Repository](https://github.com/tanmay-alpha/tanmay-portfolio) | [Live Demo](https://tanmay-portfolio-coral.vercel.app/)
 
 </td>
 </tr>
@@ -526,6 +583,9 @@ flowchart LR
 </a>
 <a href="https://github.com/tanmay-alpha?tab=repositories">
   <img src="https://img.shields.io/badge/GitHub-All%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Projects" />
+</a>
+<a href="https://tanmay-portfolio-coral.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-Live%20Website-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
 
 </div>
