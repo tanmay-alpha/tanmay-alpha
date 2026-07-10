@@ -1,0 +1,432 @@
+<svg width="1200" height="480" viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="tbg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0a1520"/>
+      <stop offset="50%" stop-color="#060d15"/>
+      <stop offset="100%" stop-color="#020508"/>
+    </radialGradient>
+
+    <linearGradient id="greenBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="#00cc66"/>
+    </linearGradient>
+
+    <linearGradient id="redBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff4466"/>
+      <stop offset="100%" stop-color="#cc0033"/>
+    </linearGradient>
+
+    <linearGradient id="signalLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00D9FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00D9FF"/>
+      <stop offset="100%" stop-color="#6C63FF"/>
+    </linearGradient>
+
+    <linearGradient id="panelBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1f2d"/>
+      <stop offset="100%" stop-color="#07121a"/>
+    </linearGradient>
+
+    <linearGradient id="aiNodeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+
+    <filter id="tglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="chartClip">
+      <rect x="30" y="100" width="600" height="280"/>
+    </clipPath>
+
+    <style>
+      .termTitle {
+        font: 900 26px 'Segoe UI', Arial, sans-serif;
+        fill: #ffffff;
+        letter-spacing: 3px;
+      }
+      .termSub {
+        font: 600 11px 'Segoe UI', Arial, sans-serif;
+        fill: #00D9FF;
+        letter-spacing: 2px;
+      }
+      .panelTitle {
+        font: 700 9px 'Segoe UI', Arial, sans-serif;
+        fill: #00D9FF;
+        letter-spacing: 2px;
+      }
+      .dataVal {
+        font: 700 16px 'Segoe UI', Arial, sans-serif;
+        fill: #00ff88;
+      }
+      .dataLabel {
+        font: 500 9px 'Segoe UI', Arial, sans-serif;
+        fill: #8899aa;
+        letter-spacing: 1px;
+      }
+      .aiLabel {
+        font: 700 10px 'Segoe UI', Arial, sans-serif;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+      .tickLabel {
+        font: 500 9px 'Segoe UI', Arial, sans-serif;
+        fill: #445566;
+      }
+      .sectionLabel {
+        font: 600 9px 'Segoe UI', Arial, sans-serif;
+        fill: #00D9FF;
+        letter-spacing: 1px;
+        opacity: 0.7;
+      }
+      .priceUp {
+        font: 800 14px 'Segoe UI', Arial, sans-serif;
+        fill: #00ff88;
+      }
+      .priceDown {
+        font: 800 14px 'Segoe UI', Arial, sans-serif;
+        fill: #ff4466;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="480" rx="16" fill="url(#tbg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#00D9FF" stroke-width="1">
+    <line x1="0" y1="96" x2="1200" y2="96"/>
+    <line x1="0" y1="166" x2="1200" y2="166"/>
+    <line x1="0" y1="236" x2="1200" y2="236"/>
+    <line x1="0" y1="306" x2="1200" y2="306"/>
+    <line x1="0" y1="376" x2="1200" y2="376"/>
+    <line x1="0" y1="446" x2="1200" y2="446"/>
+  </g>
+
+  <!-- Corner brackets -->
+  <g stroke="#00D9FF" stroke-width="2" fill="none" opacity="0.4">
+    <path d="M14 30 L14 14 L30 14"/>
+    <path d="M1186 30 L1186 14 L1170 14"/>
+    <path d="M14 450 L14 466 L30 466"/>
+    <path d="M1186 450 L1186 466 L1170 466"/>
+  </g>
+
+  <!-- HEADER -->
+  <text x="600" y="36" class="termTitle" text-anchor="middle" filter="url(#tglow)">AI MARKET INTELLIGENCE</text>
+  <text x="600" y="56" class="termSub" text-anchor="middle">NSE  |  DATA  |  SCREENERS  |  PAPER TRADING  |  RISK</text>
+  <line x1="20" y1="66" x2="1180" y2="66" stroke="#00D9FF" stroke-width="1" opacity="0.2"/>
+
+  <!-- Live indicator -->
+  <circle cx="80" cy="80" r="5" fill="#00ff88" filter="url(#tglow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="92" y="84" class="panelTitle">LIVE</text>
+
+  <!-- Ticker strip -->
+  <text x="180" y="84" class="priceUp">NIFTY 50  23,842.35  +1.24%</text>
+  <text x="500" y="84" class="priceDown">SENSEX  78,425.10  -0.31%</text>
+  <text x="780" y="84" class="priceUp">BANKNIFTY  51,234.80  +0.87%</text>
+
+  <!-- ======================== -->
+  <!-- LEFT PANEL: Chart area  -->
+  <!-- ======================== -->
+  <rect x="20" y="95" width="620" height="290" rx="8" fill="url(#panelBg)" stroke="#1a3050" stroke-width="1"/>
+  <text x="35" y="115" class="panelTitle">MARKET DATA STREAM  //  NSE REALTIME</text>
+
+  <!-- Y-axis labels -->
+  <g class="tickLabel">
+    <text x="24" y="145">23900</text>
+    <text x="24" y="195">23800</text>
+    <text x="24" y="245">23700</text>
+    <text x="24" y="295">23600</text>
+    <text x="24" y="345">23500</text>
+  </g>
+
+  <!-- Candlestick chart - static candles with animation -->
+  <!-- Each candle: wick line + body rect -->
+  <!-- Base candles (non-animated, background) -->
+  <g clip-path="url(#chartClip)">
+    <!-- Candle wicks -->
+    <g stroke-width="1.5">
+      <line x1="95"  y1="130" x2="95"  y2="185" stroke="#00ff88"/>
+      <line x1="130" y1="140" x2="130" y2="200" stroke="#ff4466"/>
+      <line x1="165" y1="128" x2="165" y2="178" stroke="#00ff88"/>
+      <line x1="200" y1="145" x2="200" y2="195" stroke="#00ff88"/>
+      <line x1="235" y1="160" x2="235" y2="210" stroke="#ff4466"/>
+      <line x1="270" y1="135" x2="270" y2="185" stroke="#00ff88"/>
+      <line x1="305" y1="150" x2="305" y2="210" stroke="#ff4466"/>
+      <line x1="340" y1="125" x2="340" y2="175" stroke="#00ff88"/>
+      <line x1="375" y1="138" x2="375" y2="195" stroke="#00ff88"/>
+      <line x1="410" y1="155" x2="410" y2="215" stroke="#ff4466"/>
+      <line x1="445" y1="130" x2="445" y2="182" stroke="#00ff88"/>
+      <line x1="480" y1="120" x2="480" y2="172" stroke="#00ff88"/>
+      <line x1="515" y1="140" x2="515" y2="198" stroke="#ff4466"/>
+      <line x1="550" y1="115" x2="550" y2="165" stroke="#00ff88"/>
+      <line x1="585" y1="108" x2="585" y2="158" stroke="#00ff88"/>
+    </g>
+
+    <!-- Candle bodies - green -->
+    <rect x="86"  y="152" width="18" height="28" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="156" y="140" width="18" height="30" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="191" y="155" width="18" height="26" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="261" y="148" width="18" height="28" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="331" y="135" width="18" height="30" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="366" y="148" width="18" height="26" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="436" y="140" width="18" height="28" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="471" y="130" width="18" height="30" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="541" y="125" width="18" height="28" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+    <rect x="576" y="118" width="18" height="30" rx="2" fill="url(#greenBar)" opacity="0.9"/>
+
+    <!-- Candle bodies - red -->
+    <rect x="121" y="155" width="18" height="30" rx="2" fill="url(#redBar)" opacity="0.9"/>
+    <rect x="226" y="168" width="18" height="28" rx="2" fill="url(#redBar)" opacity="0.9"/>
+    <rect x="296" y="162" width="18" height="32" rx="2" fill="url(#redBar)" opacity="0.9"/>
+    <rect x="401" y="165" width="18" height="30" rx="2" fill="url(#redBar)" opacity="0.9"/>
+    <rect x="506" y="152" width="18" height="28" rx="2" fill="url(#redBar)" opacity="0.9"/>
+
+    <!-- Animated "new" candle arriving from right -->
+    <g>
+      <line x1="615" y1="105" x2="615" y2="155" stroke="#00ff88" stroke-width="1.5">
+        <animate attributeName="opacity" values="0;1;1;1;0" dur="3s" repeatCount="indefinite"/>
+      </line>
+      <rect x="606" y="115" width="18" height="28" rx="2" fill="url(#greenBar)">
+        <animate attributeName="opacity" values="0;0;1;1;0" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="0;0;28;28;0" dur="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Moving signal line (EMA-like) -->
+    <polyline points="86,172 121,175 156,162 191,168 226,178 261,160 296,175 331,152 366,158 401,178 436,155 471,142 506,168 541,138 576,128 615,118"
+              fill="none" stroke="url(#signalLine)" stroke-width="2" stroke-linejoin="round">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </polyline>
+
+    <!-- Signal line dot (moving) -->
+    <circle r="4" fill="#00D9FF" filter="url(#tglow)">
+      <animateMotion dur="4s" repeatCount="indefinite">
+        <mpath href="#signalPath"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- Hidden path for motion -->
+  <path id="signalPath" d="M86,172 L121,175 L156,162 L191,168 L226,178 L261,160 L296,175 L331,152 L366,158 L401,178 L436,155 L471,142 L506,168 L541,138 L576,128 L615,118" fill="none" visibility="hidden"/>
+
+  <!-- Volume bars at bottom of chart -->
+  <g opacity="0.5">
+    <rect x="86"  y="355" width="18" height="20" rx="2" fill="#00ff88"/>
+    <rect x="121" y="360" width="18" height="15" rx="2" fill="#ff4466"/>
+    <rect x="156" y="350" width="18" height="25" rx="2" fill="#00ff88"/>
+    <rect x="191" y="358" width="18" height="17" rx="2" fill="#00ff88"/>
+    <rect x="226" y="362" width="18" height="13" rx="2" fill="#ff4466"/>
+    <rect x="261" y="348" width="18" height="27" rx="2" fill="#00ff88"/>
+    <rect x="296" y="355" width="18" height="20" rx="2" fill="#ff4466"/>
+    <rect x="331" y="342" width="18" height="33" rx="2" fill="#00ff88"/>
+    <rect x="366" y="352" width="18" height="23" rx="2" fill="#00ff88"/>
+    <rect x="401" y="358" width="18" height="17" rx="2" fill="#ff4466"/>
+    <rect x="436" y="346" width="18" height="29" rx="2" fill="#00ff88"/>
+    <rect x="471" y="340" width="18" height="35" rx="2" fill="#00ff88"/>
+    <rect x="506" y="354" width="18" height="21" rx="2" fill="#ff4466"/>
+    <rect x="541" y="338" width="18" height="37" rx="2" fill="#00ff88"/>
+    <rect x="576" y="335" width="18" height="40" rx="2" fill="#00ff88"/>
+  </g>
+
+  <text x="35" y="395" class="sectionLabel">VOLUME</text>
+
+  <!-- ======================== -->
+  <!-- RIGHT PANEL: AI Pipeline -->
+  <!-- ======================== -->
+  <rect x="655" y="95" width="525" height="290" rx="8" fill="url(#panelBg)" stroke="#1a3050" stroke-width="1"/>
+  <text x="670" y="115" class="panelTitle">AI INFERENCE PIPELINE  //  REALTIME ENGINE</text>
+
+  <!-- Pipeline nodes with connecting lines -->
+  <!-- Node 1: Market Data -->
+  <g filter="url(#tglow)">
+    <rect x="670" y="135" width="110" height="52" rx="8" fill="#0e2a40" stroke="#00D9FF" stroke-width="1.5"/>
+    <text x="725" y="158" class="aiLabel" fill="#00D9FF">MARKET</text>
+    <text x="725" y="172" class="aiLabel" fill="#00D9FF">DATA</text>
+    <circle cx="670" cy="161" r="4" fill="#00D9FF">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Arrow 1->2 -->
+  <line x1="780" y1="161" x2="810" y2="161" stroke="#00D9FF" stroke-width="1.5" stroke-dasharray="4 3">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <polygon points="810,155 822,161 810,167" fill="#00D9FF"/>
+
+  <!-- Node 2: AI Inference -->
+  <g filter="url(#strongGlow)">
+    <rect x="822" y="135" width="110" height="52" rx="8" fill="url(#aiNodeGrad)" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="877" y="158" class="aiLabel">AI</text>
+    <text x="877" y="172" class="aiLabel">INFERENCE</text>
+    <circle cx="822" cy="161" r="4" fill="#a855f7">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Arrow 2->3 -->
+  <line x1="932" y1="161" x2="962" y2="161" stroke="#6C63FF" stroke-width="1.5" stroke-dasharray="4 3">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <polygon points="962,155 974,161 962,167" fill="#6C63FF"/>
+
+  <!-- Node 3: Risk Engine -->
+  <g filter="url(#tglow)">
+    <rect x="974" y="135" width="110" height="52" rx="8" fill="#1a0e2d" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="1029" y="158" class="aiLabel" fill="#F59E0B">RISK</text>
+    <text x="1029" y="172" class="aiLabel" fill="#F59E0B">ENGINE</text>
+    <circle cx="974" cy="161" r="4" fill="#F59E0B">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Vertical arrows down -->
+  <line x1="725" y1="187" x2="725" y2="218" stroke="#00D9FF" stroke-width="1.5" stroke-dasharray="4 3">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <polygon points="719,218 725,230 731,218" fill="#00D9FF"/>
+
+  <line x1="877" y1="187" x2="877" y2="218" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4 3">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <polygon points="871,218 877,230 883,218" fill="#a855f7"/>
+
+  <line x1="1029" y1="187" x2="1029" y2="218" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4 3">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <polygon points="1023,218 1029,230 1035,218" fill="#F59E0B"/>
+
+  <!-- Node 4: Backend API -->
+  <g filter="url(#tglow)">
+    <rect x="670" y="230" width="110" height="52" rx="8" fill="#0a1f10" stroke="#00ff88" stroke-width="1.5"/>
+    <text x="725" y="253" class="aiLabel" fill="#00ff88">BACKEND</text>
+    <text x="725" y="267" class="aiLabel" fill="#00ff88">API</text>
+  </g>
+
+  <!-- Node 5: Screener -->
+  <g filter="url(#tglow)">
+    <rect x="822" y="230" width="110" height="52" rx="8" fill="#0e1a2d" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="877" y="253" class="aiLabel" fill="#3b82f6">SCREENER</text>
+    <text x="877" y="267" class="aiLabel" fill="#3b82f6">ENGINE</text>
+  </g>
+
+  <!-- Node 6: Dashboard -->
+  <g filter="url(#tglow)">
+    <rect x="974" y="230" width="110" height="52" rx="8" fill="#0d1a0d" stroke="#00ff88" stroke-width="1.5"/>
+    <text x="1029" y="253" class="aiLabel" fill="#00ff88">DASHBOARD</text>
+    <text x="1029" y="267" class="aiLabel" fill="#00ff88">OUTPUT</text>
+  </g>
+
+  <!-- Horizontal connections row 2 -->
+  <line x1="780" y1="256" x2="822" y2="256" stroke="#00ff88" stroke-width="1" stroke-dasharray="4 3" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="932" y1="256" x2="974" y2="256" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4 3" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="1s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Data stream area below pipeline -->
+  <rect x="670" y="300" width="490" height="68" rx="6" fill="#060e16" stroke="#0d2030" stroke-width="1"/>
+  <text x="685" y="316" class="sectionLabel">DATA STREAM  //  LIVE FEED</text>
+
+  <!-- Stream lines -->
+  <g opacity="0.7">
+    <rect x="685" y="322" width="0" height="6" rx="3" fill="#00D9FF">
+      <animate attributeName="width" values="0;380;0" dur="3s" repeatCount="indefinite" calcMode="linear"/>
+    </rect>
+    <rect x="685" y="334" width="0" height="6" rx="3" fill="#6C63FF">
+      <animate attributeName="width" values="0;280;0" dur="4s" repeatCount="indefinite" calcMode="linear" begin="0.5s"/>
+    </rect>
+    <rect x="685" y="346" width="0" height="6" rx="3" fill="#00ff88">
+      <animate attributeName="width" values="0;450;0" dur="2.5s" repeatCount="indefinite" calcMode="linear" begin="1s"/>
+    </rect>
+    <rect x="685" y="358" width="0" height="6" rx="3" fill="#F59E0B">
+      <animate attributeName="width" values="0;200;0" dur="3.5s" repeatCount="indefinite" calcMode="linear" begin="0.8s"/>
+    </rect>
+  </g>
+
+  <!-- ======================== -->
+  <!-- BOTTOM STATUS BAR -->
+  <!-- ======================== -->
+  <rect x="0" y="418" width="1200" height="40" rx="0" fill="#040b12" opacity="0.9"/>
+  <line x1="0" y1="418" x2="1200" y2="418" stroke="#00D9FF" stroke-width="1" opacity="0.15"/>
+
+  <!-- Bottom metrics -->
+  <g>
+    <text x="30" y="434" class="panelTitle">SIGNAL</text>
+    <text x="30" y="450" class="dataVal" font-size="12px">BUY</text>
+    <circle cx="75" cy="442" r="5" fill="#00ff88" filter="url(#tglow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <line x1="95" y1="420" x2="95" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="105" y="434" class="panelTitle">CONFIDENCE</text>
+    <text x="105" y="450" class="dataVal" font-size="12px">84.2%</text>
+  </g>
+  <line x1="210" y1="420" x2="210" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="220" y="434" class="panelTitle">LATENCY</text>
+    <text x="220" y="450" class="dataVal" font-size="12px">12ms</text>
+  </g>
+  <line x1="310" y1="420" x2="310" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="320" y="434" class="panelTitle">RISK SCORE</text>
+    <text x="320" y="450" class="priceDown" font-size="12px">LOW</text>
+  </g>
+  <line x1="420" y1="420" x2="420" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="430" y="434" class="panelTitle">MODE</text>
+    <text x="430" y="450" class="dataVal" font-size="12px">PAPER</text>
+  </g>
+  <line x1="530" y1="420" x2="530" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="540" y="434" class="panelTitle">MODEL</text>
+    <text x="540" y="450" class="dataVal" font-size="12px" fill="#a855f7">CodeBERT+</text>
+  </g>
+  <line x1="670" y1="420" x2="670" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="680" y="434" class="panelTitle">BACKEND</text>
+    <text x="680" y="450" class="dataVal" font-size="12px" fill="#00D9FF">FastAPI</text>
+  </g>
+  <line x1="780" y1="420" x2="780" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="790" y="434" class="panelTitle">DATABASE</text>
+    <text x="790" y="450" class="dataVal" font-size="12px" fill="#3ECF8E">Supabase</text>
+  </g>
+  <line x1="910" y1="420" x2="910" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="920" y="434" class="panelTitle">EXCHANGE</text>
+    <text x="920" y="450" class="dataVal" font-size="12px" fill="#F59E0B">NSE India</text>
+  </g>
+  <line x1="1050" y1="420" x2="1050" y2="456" stroke="#1a3050" stroke-width="1"/>
+  <g>
+    <text x="1060" y="434" class="panelTitle">STATUS</text>
+    <text x="1060" y="450" class="dataVal" font-size="12px">ONLINE</text>
+    <circle cx="1150" cy="442" r="4" fill="#00ff88" filter="url(#tglow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Scan line -->
+  <rect x="0" y="0" width="1200" height="1.5" fill="#00D9FF" opacity="0.4">
+    <animate attributeName="y" values="0;475;0" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.05;0.4" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>
