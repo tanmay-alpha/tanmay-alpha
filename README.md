@@ -531,7 +531,7 @@ Reusable workflow toolkit for AI-assisted software engineering.
     <img src="https://github-readme-stats.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://streak-stats.demolab.com/?user=tanmay-alpha&theme=tokyonight" alt="GitHub Streak Stats" />
+    <img src="https://streak-stats.demolab.com/?user=tanmay-alpha&theme=tokyonight&timezone=Asia%2FKolkata" alt="GitHub Streak Stats" />
   </a>
 </div>
 
