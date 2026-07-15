@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:7C3AED&height=240&section=header&text=Tanmay%20Mangal&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20%26%20FinTech%20Builder%20%7C%20Trading%20Systems%20Enthusiast&descAlignY=60&descSize=18" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00D9FF,50:6C63FF,100:7C3AED&height=220&section=header&text=Tanmay%20Mangal&fontSize=52&fontColor=ffffff&desc=Software%20Development%20Engineer%20(SDE)%20%7C%20AI%20%26%20ML%20Developer&descAlignY=62&descSize=16" alt="Header" />
 
 <img src="https://avatars.githubusercontent.com/u/254906467?v=4" width="160" height="160" style="border-radius:50%" alt="Tanmay Mangal" />
 
 # Tanmay Mangal
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=2200&pause=700&center=true&vCenter=true&width=900&lines=B.Tech+Student;Full+Stack+Developer;AI+%2B+FinTech+Builder;Trading+Systems+Enthusiast;Building+real-world+software;DSA+%2B+System+Design+in+progress" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=2200&pause=700&center=true&vCenter=true&width=900&lines=B.Tech+Student+in+Computer+Science;Software+Development+Engineer+(SDE);AI+%26+Machine+Learning+Developer;Next.js+%26+FastAPI+Full+Stack+Builder;DSA+%2B+System+Design+specialist" alt="Typing SVG" />
 
 <p>
   <a href="https://www.linkedin.com/in/tanmaymangal/">
@@ -46,44 +46,24 @@
 
 ```txt
 Name        : Tanmay Mangal
-Role        : B.Tech Student + Full Stack Developer
-Focus       : AI, FinTech, Trading Systems, Developer Tools, Automation
-Currently   : DSA + React/Next.js + Backend + FastAPI + System Design
-Goal        : Software Development Internship + Strong Project Portfolio
-Mindset     : Build practical products, ship clean code, improve every day
+Role        : Computer Science Student + Software Development Engineer (SDE)
+Focus       : Artificial Intelligence, Deep Learning, Scalable APIs, Backend Systems
+Currently   : Deep Learning + FastAPI/Python + Next.js + System Design & DSA
+Goal        : SDE / AI-ML Internship & building production-grade software
+Mindset     : Solve real-world problems with clean, scalable code and robust ML architectures
 ```
 
 ---
 
 ## About Me
 
-I am a **B.Tech student** and **full-stack developer** building practical, production-grade software. Not toy projects — real platforms with real architecture.
+I am a **Computer Science student** and **Software Development Engineer (SDE)** specializing in building scalable backend systems, machine learning applications, and full-stack web products. I focus on clean code, system architecture, and robust AI integrations.
 
-- Building **AI, FinTech, trading systems, automation, and full-stack web products** from scratch
-- Exploring **stock screeners, market data pipelines, paper trading, and risk systems** as core domains
-- Learning **DSA in C++, React/Next.js, FastAPI, system design, and backend engineering**
-- Strong interest in **AI/ML applications, developer tooling, financial platforms, and scalable APIs**
-- Open to **internships, collaborations, and open-source contributions** in AI, FinTech, or full-stack
-
----
-
-## Quant Skill Reactor
-
-<div align="center">
-
-<img src="./assets/quant-skill-reactor.svg" alt="Tanmay Quant Skill Reactor" />
-
-</div>
-
----
-
-## AI Market Intelligence Terminal
-
-<div align="center">
-
-<img src="./assets/market-ai-terminal.svg" alt="AI Market Terminal" />
-
-</div>
+- Building **AI/ML applications, computer vision pipelines, and semantic code analyzers** from scratch
+- Designing **scalable REST APIs, microservices, and real-time streaming architectures** using FastAPI and WebSockets
+- Proficient in **C++, Python, JavaScript/TypeScript, Java, and SQL/NoSQL databases**
+- Exploring **deep learning models, vector databases, and LLM orchestration**
+- Seeking **SDE, Backend Engineering, or AI/ML Internships** where I can contribute to production systems
 
 ---
 
@@ -168,7 +148,7 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
 </details>
 
 <details open>
-  <summary><b>📈 AI, Machine Learning and Specialized Tools</b></summary>
+  <summary><b>🤖 AI, Machine Learning and Specialized Tools</b></summary>
   <br/>
   <table>
     <tr>
@@ -192,10 +172,86 @@ I am a **B.Tech student** and **full-stack developer** building practical, produ
 
 ---
 
-## Main Project Universe
+## Project Universe
 
 <table>
 <tr>
+<td width="50%">
+
+### CodeLens
+
+Semantic automated code reviewer designed to identify deep architectural bugs.
+
+**What it does**
+- Scans repositories to detect issues missed by standard linters (N+1 queries, hardcoded secrets, I/O in async paths)
+- Employs a fine-tuned CodeBERT model for deep semantic code comprehension
+- Built as a Java 21 Spring Boot core worker service managing task queues via Redis
+- Exposes a high-performance FastAPI server for model inference, logging to PostgreSQL
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/CodeBERT-6C63FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/codelens)
+
+</td>
+<td width="50%">
+
+### Crucible
+
+From-scratch high-performance neural network inference engine.
+
+**What it does**
+- Implements ONNX tensor operations, model parsing, and computation graphs from scratch
+- Written in clean, modular C++17 with supplementary implementations in Rust
+- Compiles via WebAssembly (WASM) to support zero-dependency client-side ML in the browser
+- Includes Python bindings and a FastAPI wrapper for backend testing
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/Crucible)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### AI Image Forensic Screener
+
+Desktop intelligence tool for deepfake detection and metadata forensic inspection.
+
+**What it does**
+- Performs image classification using fine-tuned Hugging Face ML models
+- Extracts and audits EXIF, XMP, IPTC, and modern C2PA provenance metadata
+- Applies OpenCV filters for digital image forensics (error level and noise analysis)
+- Features a secure PyQt6 desktop GUI with local SQLite history logging and report exports
+
+**Tech Stack**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square" />
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+
+<br/>
+
+[Repository](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
+
+</td>
 <td width="50%">
 
 ### Lumint
@@ -220,11 +276,14 @@ AI-powered payment fraud detection platform built to secure transactions.
 [Repository](https://github.com/tanmay-alpha/Lumint) | [Live Demo](https://lumint-pi.vercel.app)
 
 </td>
+</tr>
+
+<tr>
 <td width="50%">
 
 ### TradeVed Screener
 
-Data-first Indian equity research database and fundamental stock screener.
+Data-first equity research database and fundamental stock screener.
 
 **What it does**
 - Aggregates multi-year corporate fundamental data, financial ratios, and master sheets
@@ -236,39 +295,11 @@ Data-first Indian equity research database and fundamental stock screener.
 
 <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
 <img src="https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Finance-Indian%20Markets-orange?style=flat-square" />
 <img src="https://img.shields.io/badge/Data%20Platform-181717?style=flat-square" />
 
 <br/>
 
 [Repository](https://github.com/tanmay-alpha/tradeved-screener) | [Live Demo](https://tradevedscreener.vercel.app)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### MAET
-
-Scanner-first Indian market intelligence and stock discovery terminal.
-
-**What it does**
-- Tracks the active NSE company universe with multi-metric screening filters
-- Processes and displays real-time price indicators and custom chart overlays
-- Combines a FastAPI backend for high-performance calculations with a Supabase database
-- Deployed on Render for fast API response times under high-frequency updates
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/NSE%20Screener-00D9FF?style=flat-square" />
-
-<br/>
-
-[Repository](https://github.com/tanmay-alpha/MAET) | [Live Demo](https://maet-pi.vercel.app)
 
 </td>
 <td width="50%">
@@ -324,78 +355,25 @@ Comprehensive calculator suite localized for Indian investment and tax planning.
 </td>
 <td width="50%">
 
-### AI Image Forensic Screener
+### MAET
 
-Desktop intelligence tool for deepfake detection and metadata forensic inspection.
+Scanner-first market intelligence and stock discovery terminal.
 
 **What it does**
-- Performs image classification using fine-tuned Hugging Face ML models
-- Extracts and audits EXIF, XMP, IPTC, and modern C2PA provenance metadata
-- Applies OpenCV filters for digital image forensics (error level and noise analysis)
-- Features a secure PyQt6 desktop GUI with local SQLite history logging and report exports
+- Tracks the active NSE company universe with multi-metric screening filters
+- Processes and displays real-time price indicators and custom chart overlays
+- Combines a FastAPI backend for high-performance calculations with a Supabase database
+- Deployed on Render for fast API response times under high-frequency updates
 
 **Tech Stack**
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square" />
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-
-<br/>
-
-[Repository](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### CodeLens
-
-Semantic automated code reviewer designed to identify deep architectural bugs.
-
-**What it does**
-- Scans repositories to detect issues missed by standard linters (N+1 queries, hardcoded secrets, I/O in async paths)
-- Employs a fine-tuned CodeBERT model for deep semantic code comprehension
-- Built as a Java 21 Spring Boot core worker service managing task queues via Redis
-- Exposes a high-performance FastAPI server for model inference, logging to PostgreSQL
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/Java%2021-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/CodeBERT-6C63FF?style=flat-square" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
 
 <br/>
 
-[Repository](https://github.com/tanmay-alpha/codelens)
-
-</td>
-<td width="50%">
-
-### Crucible
-
-From-scratch high-performance neural network inference engine.
-
-**What it does**
-- Implements ONNX tensor operations, model parsing, and computation graphs from scratch
-- Written in clean, modular C++17 with supplementary implementations in Rust
-- Compiles via WebAssembly (WASM) to support zero-dependency client-side ML in the browser
-- Includes Python bindings and a FastAPI wrapper for backend testing
-
-**Tech Stack**
-
-<img src="https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" />
-<img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square" />
-
-<br/>
-
-[Repository](https://github.com/tanmay-alpha/Crucible)
+[Repository](https://github.com/tanmay-alpha/MAET) | [Live Demo](https://maet-pi.vercel.app)
 
 </td>
 </tr>
@@ -459,58 +437,6 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## Project Radar
-
-<div align="center">
-
-<img src="./assets/project-radar.svg" alt="Tanmay Project Radar" />
-
-</div>
-
----
-
-## Learning Radar
-
-<table>
-<tr>
-<td><b>DSA in C++</b></td>
-<td>█████████░░░░░░░</td>
-<td>45%</td>
-</tr>
-<tr>
-<td><b>React and Next.js</b></td>
-<td>████████░░░░░░░░</td>
-<td>40%</td>
-</tr>
-<tr>
-<td><b>Backend Engineering</b></td>
-<td>███████░░░░░░░░░</td>
-<td>35%</td>
-</tr>
-<tr>
-<td><b>FastAPI and APIs</b></td>
-<td>███████░░░░░░░░░</td>
-<td>35%</td>
-</tr>
-<tr>
-<td><b>System Design</b></td>
-<td>█████░░░░░░░░░░░</td>
-<td>25%</td>
-</tr>
-<tr>
-<td><b>AI/ML Project Development</b></td>
-<td>██████░░░░░░░░░░</td>
-<td>30%</td>
-</tr>
-<tr>
-<td><b>Finance Technology</b></td>
-<td>███████░░░░░░░░░</td>
-<td>35%</td>
-</tr>
-</table>
-
----
-
 ## Problem Solving
 
 <div align="center">
@@ -523,15 +449,15 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## GitHub Statistics
+## GitHub Statistics & Contribution Activity
 
 <div align="center">
   <!-- General Stats Card & Streak Stats Card side-by-side -->
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://github-readme-stats.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://streak-stats.demolab.com/?user=tanmay-alpha&theme=tokyonight&timezone=Asia%2FKolkata" alt="GitHub Streak Stats" />
+    <img src="https://streak-stats.demolab.com/?user=tanmay-alpha&theme=tokyonight&timezone=Asia%2FKolkata&hide_border=true" alt="GitHub Streak Stats" />
   </a>
 </div>
 
@@ -554,26 +480,15 @@ Reusable workflow toolkit for AI-assisted software engineering.
 
 ---
 
-## 3D Contribution Universe
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/tanmay-alpha/tanmay-alpha/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contribution Calendar" />
-
-</div>
-
----
-
 ## Engineering Direction
 
 ```mermaid
 flowchart LR
-    A[DSA + C++ Foundation] --> B[Full Stack Engineering]
+    A[DSA + C++ Foundation] --> B[Software Engineering SDE]
     B --> C[Backend APIs + Databases]
-    C --> D[AI and ML Systems]
-    C --> E[FinTech and Trading Platforms]
-    D --> F[Internship Ready Engineer]
-    E --> F
+    C --> D[AI and Machine Learning Systems]
+    D --> E[Full Stack System Integration]
+    E --> F[Production Ready SDE]
 ```
 
 ---
@@ -604,8 +519,8 @@ flowchart LR
 
 <div align="center">
 
-### "Building products, decoding markets, training models, and improving every day."
+### "Building scalable software, deploying intelligent models, and solving core problems every day."
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:6C63FF,100:7C3AED&height=150&section=footer" alt="Footer Wave" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00D9FF,50:6C63FF,100:7C3AED&height=100&section=footer" alt="Footer Wave" />
 
 </div>
