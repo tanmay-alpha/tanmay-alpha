@@ -454,10 +454,10 @@ Reusable workflow toolkit for AI-assisted software engineering.
 <div align="center">
   <!-- General Stats Card & Streak Stats Card side-by-side -->
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://github-readme-stats.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.anuraghazra.com/api?username=tanmay-alpha&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://streak-stats.demolab.com/?user=tanmay-alpha&theme=tokyonight&timezone=Asia%2FKolkata&hide_border=true" alt="GitHub Streak Stats" />
+    <img src="https://streak-stats.demolab.com/?user=tanmay-alpha&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
   </a>
 </div>
 
