@@ -210,20 +210,10 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 <div align="center">
 
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&v=99" alt="GitHub Stats" width="48%" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
   </a>
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://github-readme-streak-stats-v2.vercel.app/?user=tanmay-alpha&theme=tokyonight&hide_border=true&count_private=true&v=99" alt="GitHub Streak Stats" width="48%" />
-  </a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-  <a href="https://github.com/tanmay-alpha">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=tanmay-alpha&layout=compact&theme=tokyonight&hide_border=true&v=99" alt="Top Languages" width="60%" />
+    <img src="https://github-readme-streak-stats-v2.vercel.app/?user=tanmay-alpha&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Streak Stats" width="48%" />
   </a>
 
 </div>
@@ -233,7 +223,17 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 <div align="center">
 
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanmay-alpha&theme=tokyonight&area=true&hide_border=true&v=99" alt="GitHub Activity Graph" width="100%" />
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=tanmay-alpha&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="60%" />
+  </a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+  <a href="https://github.com/tanmay-alpha">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tanmay-alpha&theme=tokyonight&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%" />
   </a>
 
 </div>
