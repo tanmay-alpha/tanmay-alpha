@@ -85,114 +85,59 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 
 ## ⚡ Featured Engineering Repositories (18 Public Repos)
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 Automated Code Review Tool
+### 🤖 [Automated Code Review Tool](https://github.com/tanmay-alpha/automated-code-review-tool)
 > **Enterprise Microservices & ML Code Audit Platform**
-* **Focus**: Automated static analysis, secret redaction, and deep learning classification.
 * **Architecture**: Distributed multi-service architecture with a Java Spring Boot API gateway, FastAPI ML worker, PostgreSQL outbox pattern, and VS Code extension.
+* **Tech Stack**: `Java Spring Boot` `FastAPI` `PyTorch` `PostgreSQL` `VS Code API` `Docker`
 
-**Tech:** `Java Spring Boot` `FastAPI` `PyTorch` `PostgreSQL` `VS Code API` `Docker`
+---
 
-🔗 [Repository](https://github.com/tanmay-alpha/automated-code-review-tool)
-
-</td>
-<td width="50%" valign="top">
-
-### ✈️ Flight Agent Evaluator
+### ✈️ [Flight Agent Evaluator](https://github.com/tanmay-alpha/Flight-Agent-Evaluator)
 > **Deterministic Agent Benchmark & Aviation Environment**
-* **Focus**: Reliability evaluation for LLM autonomous agents in complex flight booking domain.
 * **Architecture**: Evaluation harness with HTTP recording/replay, multi-stage constraint verification, stateful simulated airline API, and diagnostic scorecards.
+* **Tech Stack**: `Python` `FastAPI` `Pydantic` `HTTP Replay` `Pytest` `CLI`
 
-**Tech:** `Python` `FastAPI` `Pydantic` `HTTP Replay` `Pytest` `CLI`
+---
 
-🔗 [Repository](https://github.com/tanmay-alpha/Flight-Agent-Evaluator)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🚀 ONNX Inference Engine
+### 🚀 [ONNX Inference Engine](https://github.com/tanmay-alpha/onnx-inference-engine)
 > **High-Performance C++ Deep Learning Inference Core**
-* **Focus**: Zero-overhead neural network operator execution and tensor graph dispatch.
 * **Architecture**: C++20 execution runtime implementing 20 ONNX operators, PyBind11 bindings, C ABI shared library export, Rust CLI, and Google Benchmark suite.
+* **Tech Stack**: `C++20` `PyBind11` `Rust` `ONNX` `Google Benchmark` `CMake`
 
-**Tech:** `C++20` `PyBind11` `Rust` `ONNX` `Google Benchmark` `CMake`
+---
 
-🔗 [Repository](https://github.com/tanmay-alpha/onnx-inference-engine)
-
-</td>
-<td width="50%" valign="top">
-
-### 📈 MAET
+### 📈 [MAET](https://github.com/tanmay-alpha/MAET) | 🌐 [Live Demo](https://maet-pi.vercel.app)
 > **Market Analytics & Execution Terminal**
-* **Focus**: High-speed equity screening and market intelligence.
 * **Architecture**: Terminal for shortlisting NSE equities using corporate fundamentals, real-time price feeds, custom technical filters, and Supabase PostgreSQL.
+* **Tech Stack**: `React` `FastAPI` `Supabase` `PostgreSQL` `Render` `Tailwind CSS`
 
-**Tech:** `React` `FastAPI` `Supabase` `PostgreSQL` `Render` `Tailwind CSS`
+---
 
-🔗 [Repository](https://github.com/tanmay-alpha/MAET) | 🌐 [Live Demo](https://maet-pi.vercel.app)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 📉 Indian Algo Trading Platform
+### 📉 [Indian Algo Trading Platform](https://github.com/tanmay-alpha/indian-algo-trading-platform) | 🌐 [Live Demo](https://indian-algo-trading-platform.vercel.app)
 > **Paper Trading Workspace & Execution OMS**
-* **Focus**: High-fidelity simulated trading & market analytics.
 * **Architecture**: Paper OMS workspace for Indian equity (NSE) markets. Real-time market data streaming over WebSockets, interactive candle diagnostics, and FastAPI AI advisory microservice.
+* **Tech Stack**: `Next.js 15` `FastAPI` `WebSockets` `Paper OMS` `TypeScript` `Tailwind CSS`
 
-**Tech:** `Next.js 15` `FastAPI` `WebSockets` `Paper OMS` `TypeScript` `Tailwind CSS`
+---
 
-🔗 [Repository](https://github.com/tanmay-alpha/indian-algo-trading-platform) | 🌐 [Live Demo](https://indian-algo-trading-platform.vercel.app)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧮 FinCalc India
+### 🧮 [FinCalc India](https://github.com/tanmay-alpha/fincalc-india) | 🌐 [Live Demo](https://fincalc-india.vercel.app)
 > **Investor & Income Tax Calculator Suite**
-* **Focus**: Financial tools localized for the Indian demographic.
 * **Architecture**: Production-ready financial calculator suite covering SIP, Lumpsum, EMI, FD, PPF, and Old vs. New Tax regime comparisons with interactive Recharts.
+* **Tech Stack**: `Next.js 15` `TypeScript` `Tailwind CSS` `Recharts`
 
-**Tech:** `Next.js 15` `TypeScript` `Tailwind CSS` `Recharts`
+---
 
-🔗 [Repository](https://github.com/tanmay-alpha/fincalc-india) | 🌐 [Live Demo](https://fincalc-india.vercel.app)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ Lumint & AI Forensic Screener
+### 🛡️ [Lumint Repo](https://github.com/tanmay-alpha/Lumint) | [AI Forensic Screener](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
 > **Banking Fraud & Forensic Security Systems**
-* **Focus**: AI-powered banking fraud intelligence operating system and image forensic screener.
 * **Architecture**: Machine learning intelligence system for detecting transaction anomalies and image tampering.
+* **Tech Stack**: `Python` `FastAPI` `OpenCV` `PyTorch` `Scikit-Learn`
 
-**Tech:** `Python` `FastAPI` `OpenCV` `PyTorch` `Scikit-Learn`
+---
 
-🔗 [Lumint Repo](https://github.com/tanmay-alpha/Lumint) | 🔗 [Forensic Screener](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
-
-</td>
-<td width="50%" valign="top">
-
-### 💻 Personal Portfolio & FOSSEE Booking
-> **Interactive Full-Stack Web Platforms**
-* Personal portfolio platform highlighting production projects, full-stack applications, interactive UI micro-animations, theme toggles, and live demo integrations.
-
-**Tech:** `Next.js 15` `React` `TypeScript` `Tailwind CSS` `Framer Motion`
-
-🔗 [Portfolio Repo](https://github.com/tanmay-alpha/tanmay-portfolio) | 🔗 [FOSSEE Booking Repo](https://github.com/tanmay-alpha/fossee-workshop-booking)
-
-</td>
-</tr>
-</table>
+### 💻 [Portfolio Website](https://tanmay-portfolio-coral.vercel.app) | [Portfolio Repo](https://github.com/tanmay-alpha/tanmay-portfolio)
+> **Interactive Full-Stack SDE Portfolio**
+* **Architecture**: Production portfolio website featuring interactive UI micro-animations, theme toggles, and live project demo integrations.
+* **Tech Stack**: `Next.js 15` `React` `TypeScript` `Tailwind CSS` `Framer Motion`
 
 ---
 
