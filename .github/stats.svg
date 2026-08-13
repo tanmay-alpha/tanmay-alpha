@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+    .label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdf8; }
+    .val { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #bf91f7; }
+    .rank-text { font: 700 32px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdf8; }
+    .rank-circle { fill: none; stroke: #38bdf8; stroke-width: 6; stroke-dasharray: 250; stroke-dashoffset: 25; }
+    .bg-circle { fill: none; stroke: #2ac3de; stroke-opacity: 0.2; stroke-width: 6; }
+    .border { rx: 10px; fill: #1a1b26; stroke: #38bdf8; stroke-width: 1px; }
+  </style>
+
+  <!-- Background Card -->
+  <rect class="border" x="0.5" y="0.5" width="494" height="194" />
+
+  <!-- Header Title -->
+  <text class="header" x="25" y="35">Tanmay Mangal's GitHub Stats</text>
+
+  <!-- Left Stats List -->
+  <g transform="translate(25, 45)">
+    <!-- Total Commits -->
+    <g transform="translate(0, 20)">
+      <path d="M1.5 8a6.5 6.5 0 0113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0z" fill="#70a5fd" transform="scale(0.8) translate(0, -4)" />
+      <text class="label" x="20" y="8">Total Commits:</text>
+      <text class="val" x="170" y="8">1.2k+</text>
+    </g>
+
+    <!-- Total Contributions -->
+    <g transform="translate(0, 45)">
+      <path d="M8 0a8 8 0 100 16A8 8 0 008 0z" fill="#70a5fd" transform="scale(0.8) translate(0, -4)" />
+      <text class="label" x="20" y="8">Total Contributions:</text>
+      <text class="val" x="170" y="8">1,869</text>
+    </g>
+
+    <!-- Total PRs -->
+    <g transform="translate(0, 70)">
+      <path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354z" fill="#70a5fd" transform="scale(0.8) translate(0, -4)" />
+      <text class="label" x="20" y="8">Total PRs:</text>
+      <text class="val" x="170" y="8">86</text>
+    </g>
+
+    <!-- Public Repositories -->
+    <g transform="translate(0, 95)">
+      <path d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 010-1.5h1.75v-11h-8a1 1 0 00-1 1v11h1.75a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75V2.5z" fill="#70a5fd" transform="scale(0.8) translate(0, -4)" />
+      <text class="label" x="20" y="8">Public Repositories:</text>
+      <text class="val" x="170" y="8">18 Repos</text>
+    </g>
+
+    <!-- Total Stars -->
+    <g transform="translate(0, 120)">
+      <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z" fill="#70a5fd" transform="scale(0.8) translate(0, -4)" />
+      <text class="label" x="20" y="8">Total Stars Earned:</text>
+      <text class="val" x="170" y="8">1</text>
+    </g>
+  </g>
+
+  <!-- Right Rank Badge Circle (A+) -->
+  <g transform="translate(390, 105)">
+    <circle class="bg-circle" cx="0" cy="0" r="45" />
+    <circle class="rank-circle" cx="0" cy="0" r="45" />
+    <text class="rank-text" x="0" y="11" text-anchor="middle">A+</text>
+  </g>
+</svg>

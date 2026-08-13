@@ -158,7 +158,7 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 <div align="center">
 
   <a href="https://github.com/tanmay-alpha">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=tanmay-alpha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&v=100" alt="GitHub Stats" width="48%" />
+    <img src="https://raw.githubusercontent.com/tanmay-alpha/tanmay-alpha/main/.github/stats.svg" alt="GitHub Stats" width="48%" />
   </a>
   <a href="https://github.com/tanmay-alpha">
     <img src="https://raw.githubusercontent.com/tanmay-alpha/tanmay-alpha/main/.github/streak.svg" alt="GitHub Streak Stats" width="48%" />
