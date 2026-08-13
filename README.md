@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Email-mangaltanmay7%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/tanmay-alpha?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub-All%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Projects" />
+    <img src="https://img.shields.io/badge/GitHub-All%2018%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Projects" />
   </a>
   <a href="https://tanmay-portfolio-coral.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Live%20Website-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
@@ -42,19 +42,21 @@
 
 ---
 
-## 👨‍💻 Developer Identity
+## 👨‍💻 Developer Identity & GitHub Summary
 
 ```txt
-Name        : Tanmay Mangal
-Role        : Computer Science Student + Software Development Engineer (SDE)
-Focus       : Quantitative Finance, Deep Learning Inference, Scalable Backend Systems & Tooling
-Core Stack  : C++, Python, TypeScript, Java (Spring Boot), Next.js 15, FastAPI, PostgreSQL
-Location    : India
-GitHub      : https://github.com/tanmay-alpha
-Portfolio   : https://tanmay-portfolio-coral.vercel.app
+Name          : Tanmay Mangal
+Role          : Computer Science Student + Software Development Engineer (SDE)
+Total Commits : 1,100+ Real Engineering Commits across 18 Public Repositories
+Contributions : 1,869+ Contributions (Past Year)
+Streak Range  : May 7, 2026 – August 14, 2026 (100-Day Continuous Streak)
+Core Stack    : C++, Python, TypeScript, Java (Spring Boot), Next.js 15, FastAPI, PostgreSQL
+Location      : India
+GitHub        : https://github.com/tanmay-alpha
+Portfolio     : https://tanmay-portfolio-coral.vercel.app
 ```
 
-I am a **Computer Science student** and **Software Development Engineer (SDE)** specializing in high-performance system architectures, quantitative analytics engines, machine learning inference runtimes, and full-stack enterprise web platforms.
+I am a **Computer Science student** and **Software Development Engineer (SDE)** with **1,100+ real commits** across 18 public GitHub repositories. I specialize in high-performance C++ inference runtimes, quantitative trading engines, AI evaluation frameworks, and enterprise microservices.
 
 ---
 
@@ -81,7 +83,7 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 
 ---
 
-## ⚡ Featured Systems & Production Projects
+## ⚡ Featured Engineering Repositories (18 Public Repos)
 
 <table>
 <tr>
@@ -90,7 +92,7 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 ### 🤖 Automated Code Review Tool
 > **Enterprise Microservices & ML Code Audit Platform**
 * **Focus**: Automated static analysis, secret redaction, and deep learning classification.
-* **Architecture**: Distributed multi-service architecture with a Java Spring Boot API gateway, FastAPI ML classification worker, PostgreSQL transactional outbox pattern, and an integrated VS Code extension for inline developer feedback.
+* **Architecture**: Distributed multi-service architecture with a Java Spring Boot API gateway, FastAPI ML worker, PostgreSQL outbox pattern, and VS Code extension.
 
 **Tech:** `Java Spring Boot` `FastAPI` `PyTorch` `PostgreSQL` `VS Code API` `Docker`
 
@@ -102,7 +104,7 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 ### ✈️ Flight Agent Evaluator
 > **Deterministic Agent Benchmark & Aviation Environment**
 * **Focus**: Reliability evaluation for LLM autonomous agents in complex flight booking domain.
-* **Architecture**: Production evaluation harness providing deterministic HTTP recording/replay, multi-stage constraint verification, stateful simulated airline API environments, and automated diagnostic scorecards across model providers.
+* **Architecture**: Evaluation harness with HTTP recording/replay, multi-stage constraint verification, stateful simulated airline API, and diagnostic scorecards.
 
 **Tech:** `Python` `FastAPI` `Pydantic` `HTTP Replay` `Pytest` `CLI`
 
@@ -117,7 +119,7 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 ### 🚀 ONNX Inference Engine
 > **High-Performance C++ Deep Learning Inference Core**
 * **Focus**: Zero-overhead neural network operator execution and tensor graph dispatch.
-* **Architecture**: Custom C++20 deep learning execution runtime implementing 20 ONNX operators, PyBind11 Python bindings, C ABI shared library export, Rust CLI tools, and Google Benchmark performance suites.
+* **Architecture**: C++20 execution runtime implementing 20 ONNX operators, PyBind11 bindings, C ABI shared library export, Rust CLI, and Google Benchmark suite.
 
 **Tech:** `C++20` `PyBind11` `Rust` `ONNX` `Google Benchmark` `CMake`
 
@@ -129,7 +131,7 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 ### 📈 MAET
 > **Market Analytics & Execution Terminal**
 * **Focus**: High-speed equity screening and market intelligence.
-* **Architecture**: Intelligence terminal for shortlisting NSE equities using corporate fundamental data, real-time price feeds, custom technical filters, and database-backed screening pipelines powered by FastAPI, Supabase PostgreSQL, and Render.
+* **Architecture**: Terminal for shortlisting NSE equities using corporate fundamentals, real-time price feeds, custom technical filters, and Supabase PostgreSQL.
 
 **Tech:** `React` `FastAPI` `Supabase` `PostgreSQL` `Render` `Tailwind CSS`
 
@@ -144,7 +146,7 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 ### 📉 Indian Algo Trading Platform
 > **Paper Trading Workspace & Execution OMS**
 * **Focus**: High-fidelity simulated trading & market analytics.
-* **Architecture**: Paper OMS workspace for Indian equity (NSE) markets. Features real-time market data streaming over WebSockets, interactive candle diagnostics, dry-run order validation, OMS reconciliation tracking, and an integrated FastAPI microservice.
+* **Architecture**: Paper OMS workspace for Indian equity (NSE) markets. Real-time market data streaming over WebSockets, interactive candle diagnostics, and FastAPI AI advisory microservice.
 
 **Tech:** `Next.js 15` `FastAPI` `WebSockets` `Paper OMS` `TypeScript` `Tailwind CSS`
 
@@ -156,7 +158,7 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 ### 🧮 FinCalc India
 > **Investor & Income Tax Calculator Suite**
 * **Focus**: Financial tools localized for the Indian demographic.
-* **Architecture**: Production-ready financial calculator suite covering SIP, Lumpsum, EMI, FD, PPF, and Old vs. New Tax regime comparisons. Built with native Indian numbering (Lakhs & Crores), dynamic compounding visualizers, and interactive Recharts graphs.
+* **Architecture**: Production-ready financial calculator suite covering SIP, Lumpsum, EMI, FD, PPF, and Old vs. New Tax regime comparisons with interactive Recharts.
 
 **Tech:** `Next.js 15` `TypeScript` `Tailwind CSS` `Recharts`
 
@@ -168,24 +170,25 @@ I am a **Computer Science student** and **Software Development Engineer (SDE)** 
 <tr>
 <td width="50%" valign="top">
 
-### 💻 Personal Portfolio
-> **Interactive SDE Portfolio Platform**
-* Personal portfolio website highlighting production projects, full-stack applications, interactive UI micro-animations, theme toggles, and live demo integrations.
+### 🛡️ Lumint & AI Forensic Screener
+> **Banking Fraud & Forensic Security Systems**
+* **Focus**: AI-powered banking fraud intelligence operating system and image forensic screener.
+* **Architecture**: Machine learning intelligence system for detecting transaction anomalies and image tampering.
 
-**Tech:** `Next.js 15` `TypeScript` `Tailwind CSS` `Framer Motion` `Lucide Icons`
+**Tech:** `Python` `FastAPI` `OpenCV` `PyTorch` `Scikit-Learn`
 
-🔗 [Repository](https://github.com/tanmay-alpha/tanmay-portfolio) | 🌐 [Live Demo](https://tanmay-portfolio-coral.vercel.app)
+🔗 [Lumint Repo](https://github.com/tanmay-alpha/Lumint) | 🔗 [Forensic Screener](https://github.com/tanmay-alpha/AI-Image-Forensic-Screener)
 
 </td>
 <td width="50%" valign="top">
 
-### 🎓 FOSSEE Workshop Booking
-> **Educational Workshop Reservation Platform**
-* Responsive web platform designed for managing educational workshop bookings, featuring real-time seat reservation state handling, category filtering, and instant confirmations.
+### 💻 Personal Portfolio & FOSSEE Booking
+> **Interactive Full-Stack Web Platforms**
+* Personal portfolio platform highlighting production projects, full-stack applications, interactive UI micro-animations, theme toggles, and live demo integrations.
 
-**Tech:** `React 18` `Vite` `Tailwind CSS` `JavaScript`
+**Tech:** `Next.js 15` `React` `TypeScript` `Tailwind CSS` `Framer Motion`
 
-🔗 [Repository](https://github.com/tanmay-alpha/fossee-workshop-booking) | 🌐 [Live Demo](https://fossee-workshop-platform.vercel.app)
+🔗 [Portfolio Repo](https://github.com/tanmay-alpha/tanmay-portfolio) | 🔗 [FOSSEE Booking Repo](https://github.com/tanmay-alpha/fossee-workshop-booking)
 
 </td>
 </tr>
@@ -266,7 +269,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <a href="https://github.com/tanmay-alpha?tab=repositories">
-  <img src="https://img.shields.io/badge/GitHub-All%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Projects" />
+  <img src="https://img.shields.io/badge/GitHub-All%2018%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Projects" />
 </a>
 <a href="https://tanmay-portfolio-coral.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-Live%20Website-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
