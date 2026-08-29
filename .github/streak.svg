@@ -13,7 +13,7 @@
   <!-- Section 1: Total Contributions -->
   <g transform="translate(15, 0)">
     <text class="header" x="65" y="48" text-anchor="middle">Total Contributions</text>
-    <text class="stat" x="65" y="95" text-anchor="middle">1,997</text>
+    <text class="stat" x="65" y="95" text-anchor="middle">1,913</text>
     <text class="subtext" x="65" y="145" text-anchor="middle">Jan 14 - Present</text>
   </g>
 
