@@ -21,14 +21,14 @@
     <g transform="translate(0, 20)">
       <path d="M1.5 8a6.5 6.5 0 0113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0z" fill="#70a5fd" transform="scale(0.8) translate(0, -4)" />
       <text class="label" x="20" y="8">Total Commits:</text>
-      <text class="val" x="170" y="8">1.6k+</text>
+      <text class="val" x="170" y="8">1.7k+</text>
     </g>
 
     <!-- Total Contributions -->
     <g transform="translate(0, 45)">
       <path d="M8 0a8 8 0 100 16A8 8 0 008 0z" fill="#70a5fd" transform="scale(0.8) translate(0, -4)" />
       <text class="label" x="20" y="8">Total Contributions:</text>
-      <text class="val" x="170" y="8">1,913</text>
+      <text class="val" x="170" y="8">2,012</text>
     </g>
 
     <!-- Total PRs -->
