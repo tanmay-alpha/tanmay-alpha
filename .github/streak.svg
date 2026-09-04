@@ -13,7 +13,7 @@
   <!-- Section 1: Total Contributions -->
   <g transform="translate(15, 0)">
     <text class="header" x="65" y="48" text-anchor="middle">Total Contributions</text>
-    <text class="stat" x="65" y="95" text-anchor="middle">2,090</text>
+    <text class="stat" x="65" y="95" text-anchor="middle">2,095</text>
     <text class="subtext" x="65" y="145" text-anchor="middle">Jan 14 - Present</text>
   </g>
 
@@ -24,9 +24,9 @@
   <g transform="translate(165, 0)">
     <circle cx="82.5" cy="55" r="28" fill="#2ac3de" fill-opacity="0.1" />
     <path d="M 82.5 37 C 82.5 37 72 49 72 58 C 72 64.5 76.5 69 82.5 69 C 88.5 69 93 64.5 93 58 C 93 49 82.5 37 82.5 37 Z" fill="#ff9e64" />
-    <text class="stat" x="82.5" y="112" text-anchor="middle">120</text>
+    <text class="stat" x="82.5" y="112" text-anchor="middle">121</text>
     <text class="header" x="82.5" y="138" text-anchor="middle">Current Streak</text>
-    <text class="subtext" x="82.5" y="160" text-anchor="middle">May 7 - Sep 3</text>
+    <text class="subtext" x="82.5" y="160" text-anchor="middle">May 7 - Sep 4</text>
   </g>
 
   <!-- Divider 2 -->
@@ -34,8 +34,8 @@
 
   <!-- Section 3: Longest Streak -->
   <g transform="translate(330, 0)">
-    <text class="stat" x="82.5" y="95" text-anchor="middle">120</text>
+    <text class="stat" x="82.5" y="95" text-anchor="middle">121</text>
     <text class="header" x="82.5" y="130" text-anchor="middle">Longest Streak</text>
-    <text class="subtext" x="82.5" y="155" text-anchor="middle">May 7 - Sep 3</text>
+    <text class="subtext" x="82.5" y="155" text-anchor="middle">May 7 - Sep 4</text>
   </g>
 </svg>
