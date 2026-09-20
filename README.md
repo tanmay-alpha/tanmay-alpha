@@ -48,8 +48,8 @@
 Name          : Tanmay Mangal
 Role          : Computer Science Student + Software Development Engineer (SDE)
 Total Commits : 1,800+ Real Engineering Commits across 18 Public Repositories
-Contributions : 2,657+ Contributions (Past Year)
-Streak Range  : May 7, 2026 – September 19, 2026 (136-Day Continuous Streak)
+Contributions : 2,660+ Contributions (Past Year)
+Streak Range  : May 7, 2026 – September 20, 2026 (137-Day Continuous Streak)
 Core Stack    : C++, Python, TypeScript, Java (Spring Boot), Next.js 15, FastAPI, PostgreSQL
 Location      : India
 GitHub        : https://github.com/tanmay-alpha
