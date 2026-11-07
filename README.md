@@ -47,16 +47,16 @@
 ```txt
 Name          : Tanmay Mangal
 Role          : Computer Science Student + Software Development Engineer (SDE)
-Total Commits : 2,250+ Real Engineering Commits across 18 Public Repositories
-Contributions : 3,427+ Contributions (Past Year)
-Streak Range  : May 7, 2026 – November 6, 2026 (184-Day Continuous Streak)
+Total Commits : 2,300+ Real Engineering Commits across 18 Public Repositories
+Contributions : 3,716+ Contributions (Past Year)
+Streak Range  : May 7, 2026 – November 7, 2026 (185-Day Continuous Streak)
 Core Stack    : C++, Python, TypeScript, Java (Spring Boot), Next.js 15, FastAPI, PostgreSQL
 Location      : India
 GitHub        : https://github.com/tanmay-alpha
 Portfolio     : https://tanmay-portfolio-coral.vercel.app
 ```
 
-I am a **Computer Science student** and **Software Development Engineer (SDE)** with **2,250+ real commits** across 18 public GitHub repositories. I specialize in high-performance C++ inference runtimes, quantitative trading engines, AI evaluation frameworks, and enterprise microservices.
+I am a **Computer Science student** and **Software Development Engineer (SDE)** with **2,300+ real commits** across 18 public GitHub repositories. I specialize in high-performance C++ inference runtimes, quantitative trading engines, AI evaluation frameworks, and enterprise microservices.
 
 ---
 
